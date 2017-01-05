@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ECommerce03</title>
+    <title><%= full_title yield :title %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= favicon_link_tag %>
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
 
   <body>
+    <%= render "layouts/header" %>
     <%= yield %>
+    <%= render "layouts/footer" %>
   </body>
 </html>

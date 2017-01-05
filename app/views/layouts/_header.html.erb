@@ -1,0 +1,99 @@
+<header>
+  <div class="container">
+    <!-- Modal Signup -->
+    <div class="modal fade" id="myModalSignup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"><%= t ".signup" %></h4>
+          </div>
+          <div class="modal-body">
+            <div class="col-md-8">
+              <form action="">
+                <label for="user_name"><%= t ".name" %></label>
+                <input type="text" name="user[name]" id="user_name" class="form-control">
+                <label for="user_email"><%= t ".email" %></label>
+                <input type="email" name="user[email]" id="user_email" class="form-control">
+                <label for="user_password"><%= t ".password" %></label>
+                <input type="password" name="user[password]" id="user_password" class="form-control">
+                <label for="user_password_confirmation"><%= t ".password_confirmation" %></label>
+                <input type="password" name="user[password_confirmation]" id="user_password_confirmation" class="form-control">
+                <input type="submit" name="commit" value="Create Account" class="btn btn-primary">
+              </form>
+            </div>
+            <div class="col-md-4">
+              <p><%= t ".forward_login" %></p>
+              <a href="#" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#myModalLogin"><%= t ".login" %></a>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Login -->
+    <div class="modal fade" id="myModalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"><%= t ".login" %></h4>
+          </div>
+          <div class="modal-body">
+            <div class="col-md-8">
+              <form action="">
+                <label for="session_email"><%= t ".email" %></label>
+                <input type="email" id="session_email" name="session[email]" class="form-control">
+                <label for="session_password"><%= t ".password" %></label>
+                <input type="password" id="session_password" name="session[password]" class="form-control">
+                <input type="checkbox" id="session_remember_me" name="session[remember_me]" value="">
+                <label for="session_remember_me">Remember me</label><br>
+                <input type="submit" name="commit" value="Login" class="btn btn-primary">
+              </form>
+            </div>
+            <div class="col-md-4">
+              <p><%= t ".forward_signup" %></p>
+              <a href="#" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#myModalSignup"><%= t ".signup" %></a>
+              <p><a href="#"><%= t ".forgot_password" %></a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to t("brand"), root_path, class: "navbar-brand" %>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Find products by keywords...">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#" data-toggle="modal" data-target="#myModalSignup"><span class="glyphicon glyphicon-exclamation-sign"></span> Signup</a>
+          </li>
+          <li>
+            <a href="#" data-toggle="modal" data-target="#myModalLogin"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>

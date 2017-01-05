@@ -1,2 +1,75 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// general
+.clr{
+  clear: both;
+}
+
+// header
+header{
+  .modal{
+    input{
+      margin-bottom: 20px;
+    }
+    .modal-body{
+      a[data-toggle="modal"]{
+        width: 100%;
+      }
+      p{
+        margin-bottom: 5px;
+      }
+      a[data-target="#myModalSignup"]{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .navbar{
+    margin-bottom: 0px;
+    .navbar-form{
+      input[type="text"]{
+        width: 400px;
+      }
+    }
+    a[data-toggle="modal"]:focus{
+      outline: 0;
+    }
+  }
+}
+
+// homepage
+.homepage{
+  .jumbotron{
+    padding: 0px;
+    img{
+      width: 100%;
+      height: 200px;
+    }
+  }
+  .homepage-content-right{
+    .carousel{
+      .carousel-inner{
+        height: 400px;
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+// footer
+footer{
+  margin-top: 30px;
+  .jumbotron{
+    background: #333;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+  a{
+    color: #fff;
+    &:hover{
+      color: #fff;
+    }
+  }
+}
