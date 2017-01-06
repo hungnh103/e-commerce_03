@@ -6,6 +6,15 @@
   clear: both;
 }
 
+thead{
+  background: #1DA1F2;
+  color: #fff;
+}
+
+td[class="no-data"]{
+  text-align: center;
+}
+
 // header
 header{
   .modal{
@@ -76,4 +85,10 @@ footer{
     font-size: 11pt !important;
     margin-top: 15px;
   }
+}
+
+// admin: manage users
+.is_admin{
+  color: red;
+  font-weight: bold;
 }

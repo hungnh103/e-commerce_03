@@ -9,6 +9,8 @@ en:
   fake_para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem saepe itaque, impedit assumenda molestiae. Porro, iste? Ipsa facilis, officia corporis repudiandae, doloremque quos incidunt, ea, hic non unde quae quisquam."
   create: "Create"
   category_list: "Category List"
+  table_index: "No."
+  no_data: "No data"
   static_pages:
     help:
       help: "Help"
@@ -29,6 +31,10 @@ en:
       forgot_password: "Forgot password?"
       search: "Search"
       remember_me: "Remember me"
+      users: "Users"
+  time:
+    formats:
+      defaults: "%d/%m/%Y"
   admin:
     categories:
       index:
@@ -36,6 +42,15 @@ en:
         product: "Product Quantity"
         created_at: "Created at"
         action: "Action"
-  time:
-    formats:
-      defaults: "%d/%m/%Y"
+    dashboard:
+      show:
+        admin_dashboard: "Dashboard"
+    users:
+      index:
+        manage_users: "Manage Users"
+        name: "Name"
+        email: "Email"
+        role: "Role"
+        block: "Block / Unlock"
+        admin: "Admin"
+        member: "member"

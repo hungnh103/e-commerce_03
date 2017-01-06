@@ -1,0 +1,51 @@
+<% provide :title, t(".manage_users") %>
+
+<table class="table table-hover table-striped table-bordered">
+  <thead>
+    <tr>
+      <th><%= t "table_index" %></th>
+      <th><%= t ".name" %></th>
+      <th><%= t ".email" %></th>
+      <th><%= t ".role" %></th>
+      <th><%= t "delete" %></th>
+      <th><%= t ".block" %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if @users.present? %>
+      <% @users.each_with_index do |u, index| %>
+        <tr>
+          <td>
+            <% params[:page] ||= "1" %>
+            <%= create_index params[:page], index, Settings.admin.users_list.per_page %>
+          </td>
+          <td><%= u.name %></td>
+          <td><%= u.email %></td>
+          <% if u.role == Settings.role.admin %>
+            <td><span class="is_admin"><%= t ".admin" %></span></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          <% else %>
+            <td><span><%= t ".memeber" %></span></td>
+            <td>
+              <%= link_to "#", class: "text-danger" do %>
+                <span class="glyphicon glyphicon-trash"></span>
+              <% end %>
+            </td>
+            <td>
+              <%= link_to "#" do %>
+                <span class="glyphicon glyphicon-lock"></span>
+              <% end %>
+            </td>
+          <% end %>
+        </tr>
+      <% end %>
+    <% else %>
+      <tr>
+        <td colspan="6" class="no-data"><%= t "no_data" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= will_paginate %>
