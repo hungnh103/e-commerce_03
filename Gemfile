@@ -22,13 +22,12 @@ gem "i18n", "~> 0.7.0"
 gem "i18n-js", "~> 2.1", ">= 2.1.2"
 gem "font-awesome-rails"
 gem "config"
-gem "will_paginate"
-gem "bootstrap-will_paginate"
 gem "bcrypt", "~> 3.1", ">= 3.1.11"
 gem "faker", "~> 1.6", ">= 1.6.6"
 gem "carrierwave", "~> 0.11.2"
 gem "mini_magick", "~> 4.6"
 gem "awesome_print", "1.7.0"
+gem "kaminari"
 
 group :development, :test do
   gem "rubocop", require: false

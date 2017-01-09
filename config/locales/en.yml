@@ -1,4 +1,9 @@
 en:
+  views:
+    pagination:
+      previous: "&lt; Previous"
+      next: "Next &gt;"
+      truncate: "..."
   brand: "Framgia Ecommerce"
   previous: "Previous"
   next: "Next"
