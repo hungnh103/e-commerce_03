@@ -1,0 +1,41 @@
+.admin-menu-bar{
+  background: #333;
+  padding: 15px;
+  a{
+    color: #fff;
+    font-weight: bold;
+    span{
+      display: block;
+      width: 16px;
+      margin-right: 20px;
+      float: left;
+    }
+  }
+}
+
+.admin-content{
+  padding-bottom: 85px;
+  h1{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+  }
+  .align-text-center{
+    text-align: center;
+  }
+  .text-normal{
+    padding: 10px;
+    border-radius: 50%;
+    background: #daa520;
+  }
+  .text-danger{
+    padding: 10px;
+    border-radius: 50%;
+    background: #deb887;
+  }
+  .manage-users{
+    td{
+      height: 80px;
+      line-height: 80px;
+    }
+  }
+}

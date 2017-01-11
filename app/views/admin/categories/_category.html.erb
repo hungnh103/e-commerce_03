@@ -1,4 +1,5 @@
 <tr id="<%= dom_id(category) %>">
+  <td></td>
   <td>
     <% if category.depth > 0 %>
       <%= "-" * category.depth %>
@@ -9,13 +10,14 @@
   </td>
   <td><%= category.products.size %></td>
   <td><%= category.description %></td>
-  <td>
-    <%= link_to admin_category_path(category), class: "btn-edit-category" do %>
-      <i class="fa fa-pencil-square-o"></i>
+  <td class="align-text-center">
+    <%= link_to admin_category_path(category), class: "text-normal btn-edit-category" do %>
+      <span class="glyphicon glyphicon-edit"></span>
     <% end %>
-    |
-    <%= link_to admin_category_path(category), class: "btn-delete-category" do %>
-      <i class="fa fa-times"></i>
+  </td>
+  <td class="align-text-center">
+    <%= link_to admin_category_path(category), class: "text-danger btn-delete-category" do %>
+      <span class="glyphicon glyphicon-trash"></span>
     <% end %>
   </td>
 </tr>

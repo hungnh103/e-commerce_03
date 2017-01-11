@@ -102,15 +102,9 @@
         </form>
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>
-            <% if can? :manage, :all %>
-              <li><%= link_to t(".users"), admin_users_path %></li>
-              <li><%= link_to t(".categories"), admin_categories_path %></li>
-              <li><%= link_to t(".products"), admin_products_path %></li>
-              <li><%= link_to t(".dashboard"), admin_root_path %></li>
-            <% end %>
             <% unless current_user.admin? %>
               <li>
-                <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                <a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span></a>
               </li>
             <% end %>
             <li class="dropdown">
@@ -129,6 +123,9 @@
               <% end %>
             </li>
           <% else %>
+            <li>
+              <a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </li>
             <li>
               <%= link_to "", data: {toggle: "modal", target: "#myModalSignup"} do %>
                 <span class="glyphicon glyphicon-exclamation-sign"></span>
@@ -149,7 +146,7 @@
   </nav>
 
   <div class="jumbotron">
-    <img src="https://api.fnkr.net/testimg/350x200/333/FFF/?text=img+placeholder">
+  <%= image_tag "cover.jpg" %>
   </div>
 </header>
 

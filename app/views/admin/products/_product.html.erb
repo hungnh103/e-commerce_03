@@ -1,14 +1,16 @@
 <tr id="<%= dom_id(product) %>">
+  <td></td>
   <td><%= product.name %></td>
   <td><%= product.price %></td>
   <td><%= product.category.name %></td>
-  <td>
-    <%= link_to admin_product_path(product), class: "btn-edit-product" do %>
-      <i class="fa fa-pencil-square-o"></i>
+  <td class="align-text-center">
+    <%= link_to admin_product_path(product), class: "text-normal btn-edit-product" do %>
+      <span class="glyphicon glyphicon-edit"></span>
     <% end %>
-    |
-    <%= link_to admin_product_path(product), class: "btn-delete-product" do %>
-      <i class="fa fa-times"></i>
+  </td>
+  <td class="align-text-center">
+    <%= link_to admin_product_path(product), class: "text-danger btn-delete-product" do %>
+      <span class="glyphicon glyphicon-trash"></span>
     <% end %>
   </td>
 </tr>

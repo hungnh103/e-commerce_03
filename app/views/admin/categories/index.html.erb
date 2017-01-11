@@ -15,12 +15,14 @@
 
   <div class="col-md-8">
     <h1><%= t "category_list" %></h1>
-    <table class="table table-bordered table-hover">
+    <table class="table table-striped table-hover">
       <thead>
+        <th><%= t "table_index" %></th>
         <th><%= t ".name" %></th>
         <th><%= t ".product" %></th>
         <th><%= t "description" %></th>
-        <th><%= t ".action" %></th>
+        <th><%= t "edit" %></th>
+        <th><%= t "delete" %></th>
       </thead>
       <tbody id="category-list">
         <%= render @categories %>

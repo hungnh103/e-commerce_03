@@ -1,4 +1,7 @@
 en:
+  edit: "Edit"
+  delete: "Delete"
+  no_products: "(Not have products yet)"
   brand: "Framgia Ecommerce"
   previous: "Previous"
   next: "Next"
@@ -8,8 +11,8 @@ en:
   contact: "Contact"
   fake_para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem saepe itaque, impedit assumenda molestiae. Porro, iste? Ipsa facilis, officia corporis repudiandae, doloremque quos incidunt, ea, hic non unde quae quisquam."
   create: "Create"
-  category_list: "Category List"
-  product_list : "Product List"
+  category_list: "Manage Categories"
+  product_list : "Manage Products"
   wong_authorize: "You do not have authorize for this page."
   add_spec: "Add specification"
   maximum: "A product only have 4 specifications"
@@ -56,6 +59,13 @@ en:
       profile: "Profile"
       purchase_history: "Purchases History"
       requests: "Requests"
+    admin_menu_bar:
+      dashboard: "Dashboard"
+      categories: "Categories"
+      products: "Products"
+      orders: "Orders"
+      requests: "Requests"
+      users: "Users"
   time:
     formats:
       defaults: "%d/%m/%Y"
@@ -84,6 +94,7 @@ en:
         block: "Block / Unlock"
         admin: "Admin"
         member: "member"
+        avatar: "Avatar"
   time:
     formats:
       defaults: "%d/%m/%Y"
@@ -94,3 +105,10 @@ en:
       avatar: "Avatar"
       address_book: "Address Books"
       personal_profile: "Personal Profile"
+  cart:
+    index:
+      cart: "Cart"
+      buy_price: "Buy Price"
+      quantity: "Quantity"
+      checkout: "Checkout"
+      your_cart: "Your Cart"

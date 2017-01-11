@@ -1,0 +1,41 @@
+<% provide :title, t(".cart") %>
+
+<div class="col-md-8 customer-cart">
+  <h3><%= t ".your_cart" %></h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th class="product-img-title"></th>
+        <th></th>
+        <th class="product-price-title"><%= t ".buy_price" %></th>
+        <th class="product-quantity-title"><%= t ".quantity" %></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% if @product_carts.any? %>
+        <% @product_carts.each do |product, quantity| %>
+          <tr>
+            <td>
+              <img src="https://api.fnkr.net/testimg/120x120/333/FFF/?text=img+placeholder">
+            </td>
+            <td>
+              <a href="#" class="product-name"><%= product.name %></a>
+            </td>
+            <td class="product-price"><%= product.price %> ₫</td>
+            <td>
+              <input type="number" value="" class="form-control">
+            </td>
+          </tr>
+        <% end %>
+      <% else %>
+        <tr><td colspan="4"><%= t "no_products" %></td></tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
+<div class="col-md-2">
+  <div id="nav_test" data-spy="affix" class="visible-lg visible-md">
+    <button class="btn btn-danger create-order"><%= t ".checkout" %></button>
+  </div>
+</div>

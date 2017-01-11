@@ -13,13 +13,13 @@
 
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="https://api.fnkr.net/testimg/350x200/333/FFF/?text=img+placeholder">
+            <%= image_tag "slide1.png" %>
           </div>
           <div class="item">
-            <img src="https://api.fnkr.net/testimg/350x200/333/FFF/?text=img+placeholder2">
+            <%= image_tag "slide2.png" %>
           </div>
           <div class="item">
-            <img src="https://api.fnkr.net/testimg/350x200/333/FFF/?text=img+placeholder3">
+            <%= image_tag "slide3.jpg" %>
           </div>
         </div>
 
@@ -87,39 +87,37 @@
             <% end %>
           </div>
         </div>
-
-        <h1 class="page-header" id="electronics"><%= t ".recent_viewed_products" %></h1>
-        <div class="clr"></div>
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="phone">
-            <div class="row">
-              <% if @recent_viewed_products.any? %>
-                <% @recent_viewed_products.each do |product| %>
-                  <div class="col-sm-6 col-md-3">
-                    <div class="box">
-                      <p class="box-img">
-                        <a href="#">
-                          <img src="https://api.fnkr.net/testimg/200x170" alt="">
-                        </a>
-                      </p>
-                      <h3 class="box-title">
-                        <a href="#"><%= product.name %></a>
-                      </h3>
-                      <p class="box-price" data-toggle="tooltip" data-placement="bottom" title="">
-                        <%= product.price %> ₫
-                      </p>
-                    </div>
-                  </div>
-                <% end %>
-              <% else %>
-                <h4 class="no-products"><%= t ".no_products" %></h4>
-              <% end %>
-            </div>
-          </div>
-        </div>
-
       </div>
 
+      <h1 class="page-header" id="electronics"><%= t ".recent_viewed_products" %></h1>
+      <div class="clr"></div>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="phone">
+          <div class="row">
+            <% if @recent_viewed_products.any? %>
+              <% @recent_viewed_products.each do |product| %>
+                <div class="col-sm-6 col-md-3">
+                  <div class="box">
+                    <p class="box-img">
+                      <a href="#">
+                        <img src="https://api.fnkr.net/testimg/200x170" alt="">
+                      </a>
+                    </p>
+                    <h3 class="box-title">
+                      <a href="#"><%= product.name %></a>
+                    </h3>
+                    <p class="box-price" data-toggle="tooltip" data-placement="bottom" title="">
+                      <%= product.price %> ₫
+                    </p>
+                  </div>
+                </div>
+              <% end %>
+            <% else %>
+              <h4 class="no-products"><%= t ".no_products" %></h4>
+            <% end %>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

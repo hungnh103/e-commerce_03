@@ -9,12 +9,12 @@
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
 
-  <body data-spy="scroll" data-target="#nav_test">
-    <%= render "layouts/header" %>
-    <div class="container frontend-content">
-      <%= render "layouts/menu_bar" %>
+  <body>
+    <%= render "layouts/admin_header" %>
+    <%= render "layouts/admin_menu_bar" %>
+    <div class="col-md-10 admin-content">
       <%= yield %>
     </div>
-    <%= render "layouts/footer" %>
+    <%= render "layouts/admin_footer" %>
   </body>
 </html>

@@ -1,0 +1,36 @@
+<div class="col-md-2 admin-menu-bar">
+  <div class="row">
+    <ul class="nav nav-pills nav-stacked">
+      <li>
+        <%= link_to admin_root_path do %>
+          <span class="glyphicon glyphicon-home"></span> <%= t ".dashboard" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to admin_categories_path do %>
+          <span class="glyphicon glyphicon-th"></span> <%= t ".categories" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to admin_products_path do %>
+          <span class="glyphicon glyphicon-list-alt"></span> <%= t ".products" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "#" do %>
+          <span class="glyphicon glyphicon-usd"></span> <%= t ".orders" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to "#" do %>
+          <span class="glyphicon glyphicon-question-sign"></span> <%= t ".requests" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to admin_users_path do %>
+          <span class="glyphicon glyphicon-user"></span> <%= t ".users" %>
+        <% end %>
+      </li>
+    </ul>
+  </div>
+</div>

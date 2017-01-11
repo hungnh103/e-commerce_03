@@ -29,6 +29,7 @@ gem "mini_magick", "~> 4.6"
 gem "awesome_print", "1.7.0"
 gem "kaminari"
 gem "ransack"
+gem "bootstrap4-kaminari-views"
 
 group :development, :test do
   gem "rubocop", require: false

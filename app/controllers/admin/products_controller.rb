@@ -1,6 +1,7 @@
 class Admin::ProductsController < ApplicationController
   before_action :authenticate_user!, :is_admin?
   load_and_authorize_resource
+  layout "admin"
 
   def index
     @search = Product.search params[:q]
