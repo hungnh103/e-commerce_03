@@ -1,4 +1,5 @@
 en:
+  no_products: "(Not have products yet)"
   brand: "Framgia Ecommerce"
   previous: "Previous"
   next: "Next"
@@ -94,3 +95,10 @@ en:
       avatar: "Avatar"
       address_book: "Address Books"
       personal_profile: "Personal Profile"
+  cart:
+    index:
+      cart: "Cart"
+      buy_price: "Buy Price"
+      quantity: "Quantity"
+      checkout: "Checkout"
+      your_cart: "Your Cart"

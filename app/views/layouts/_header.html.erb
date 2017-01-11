@@ -110,7 +110,7 @@
             <% end %>
             <% unless current_user.admin? %>
               <li>
-                <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+                <a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span></a>
               </li>
             <% end %>
             <li class="dropdown">
@@ -129,6 +129,9 @@
               <% end %>
             </li>
           <% else %>
+            <li>
+              <a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </li>
             <li>
               <%= link_to "", data: {toggle: "modal", target: "#myModalSignup"} do %>
                 <span class="glyphicon glyphicon-exclamation-sign"></span>

@@ -149,3 +149,40 @@ footer{
   color: red;
   font-weight: bold;
 }
+
+// user: view cart
+.customer-cart{
+  table{
+    tbody{
+      img{
+        padding-bottom: 20px;
+      }
+    }
+    .product-img-title{
+      width: 140px;
+    }
+    .product-price-title{
+      width: 120px;
+    }
+    .product-quantity-title{
+      width: 120px;
+    }
+    .product-price{
+      font-weight: bold;
+    }
+    .product-name{
+      color: #000;
+      font-weight: bold;
+      font-size: 12pt;
+      &:hover{
+        text-decoration: none;
+        color: #00b7f1;
+      }
+    }
+  }
+}
+
+.create-order{
+  width: 100%;
+  padding: 10px 50px;
+}
