@@ -106,8 +106,23 @@
               <li><%= link_to t(".users"), admin_users_path %></li>
               <li><%= link_to t(".categories"), admin_categories_path %></li>
               <li><%= link_to t(".products"), admin_products_path %></li>
-              <li><%= link_to t(".dashboard"), admin_dashboard_show_path %></li>
+              <li><%= link_to t(".dashboard"), admin_root_path %></li>
             <% end %>
+            <% unless current_user.admin? %>
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </li>
+            <% end %>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-user"></span> <%= t ".account" %> <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to t(".profile"), current_user %></li>
+                <li><a href="#"><%= t ".purchase_history" %></a></li>
+                <li><a href="#"><%= t ".requests" %></a></li>
+              </ul>
+            </li>
             <li>
               <%= link_to destroy_user_session_path , method: :delete do %>
                 <span class="glyphicon glyphicon-log-out"></span> <%= t ".logout" %>
@@ -132,4 +147,9 @@
       </div>
     </div>
   </nav>
+
+  <div class="jumbotron">
+    <img src="https://api.fnkr.net/testimg/350x200/333/FFF/?text=img+placeholder">
+  </div>
 </header>
+

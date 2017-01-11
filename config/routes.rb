@@ -1,17 +1,15 @@
 Rails.application.routes.draw do
-  root "static_pages#home"
-  get "/pages/help", to: "static_pages#help"
-  get "/pages/about", to: "static_pages#about"
-  get "/pages/contact", to: "static_pages#contact"
+  root "static_pages#show", page: "home"
   get "/pages/*page", to: "static_pages#show"
 
   namespace :admin do
-    get "dashboard/show"
+    root "dashboard#show"
     resources :users
     resources :categories
     resources :products
   end
 
   resources :products
+  resources :users, except: [:destroy]
   devise_for :users
 end

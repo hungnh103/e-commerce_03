@@ -1,13 +1,8 @@
 class StaticPagesController < ApplicationController
-  def home
-    @support = Supports::StaticPageSupport.new
-    @recent_viewed_products = session[:recent].map{|id| Product.find_by id: id} if
-      session[:recent]
-  end
-
   def show
     if valid_page?
-      render template: "#{params[:page]}.to_s"
+      render template: "static_pages/#{params[:page]}",
+        locals: {support: @support, recent_viewed_products: @recent_viewed_products}
     else
       render file: "public/404.html", status: :not_found
     end

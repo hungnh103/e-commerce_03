@@ -26,8 +26,9 @@ en:
   dont_delete: "OK, We'll not delete your data"
   static_pages:
     home:
-      hot_products: "Sản phẩm bán chạy"
-      new_products: "Sản phẩm mới"
+      hot_products: "Hot Selling Products"
+      new_products: "New Products"
+      no_products: "(Not have products yet)"
     help:
       help: "Help"
     about:
@@ -51,6 +52,10 @@ en:
       categories: "Categories"
       products: "Products"
       dashboard: "Dashboard"
+      account: "Account"
+      profile: "Profile"
+      purchase_history: "Purchases History"
+      requests: "Requests"
   time:
     formats:
       defaults: "%d/%m/%Y"
@@ -82,3 +87,10 @@ en:
   time:
     formats:
       defaults: "%d/%m/%Y"
+  users:
+    show:
+      name: "Name"
+      email: "Email"
+      avatar: "Avatar"
+      address_book: "Address Books"
+      personal_profile: "Personal Profile"
