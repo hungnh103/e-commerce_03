@@ -1,0 +1,9 @@
+<div class="col-md-2 homepage-content-left">
+  <div id="nav_test" data-spy="affix" class="visible-lg visible-md">
+    <ul class="nav nav-pills nav-stacked">
+      <% @support.root_categories.each do |category| %>
+        <li><a href="#"><%= category.name %></a></li>
+      <% end %>
+    </ul>
+  </div>
+</div>

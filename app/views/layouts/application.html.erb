@@ -11,7 +11,10 @@
 
   <body data-spy="scroll" data-target="#nav_test">
     <%= render "layouts/header" %>
-    <%= yield %>
+    <div class="container">
+      <%= render "layouts/menu_bar" %>
+      <%= yield %>
+    </div>
     <%= render "layouts/footer" %>
   </body>
 </html>

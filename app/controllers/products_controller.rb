@@ -2,7 +2,6 @@ class ProductsController < ApplicationController
   load_and_authorize_resource
 
   def show
-    session[:recent] = [] unless session[:recent]
     if session[:recent].length >= Settings.max_item_for_recent
       session[:recent].deleted_at 0
     end

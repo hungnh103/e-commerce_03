@@ -1,0 +1,23 @@
+<% provide :title, t(".personal_profile") %>
+<div class="container">
+  <div class="col-md-10">
+    <h1><%= t ".personal_profile" %></h1>
+    <table class="personal_profile">
+      <tr>
+        <td class="item"><%= t ".name" %></td>
+        <td><%= current_user.name %></td>
+      </tr>
+      <tr>
+        <td class="item"><%= t ".email" %></td>
+        <td><%= current_user.email %></td>
+      </tr>
+      <tr>
+        <td class="item"><%= t ".avatar" %></td>
+        <td><%= gravatar_for current_user %></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="item"><%= t ".address_book" %></td>
+      </tr>
+    </table>
+  </div>
+</div>
