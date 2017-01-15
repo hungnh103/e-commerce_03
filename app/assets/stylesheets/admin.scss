@@ -91,4 +91,20 @@
       line-height: 32px;
     }
   }
+  .import-products{
+    margin-bottom: 30px;
+    td{
+      border: none;
+      border-radius: 0px !important;
+    }
+    .file-to-import{
+      border: 1px solid #000;
+      border-top-left-radius: 4px !important;
+      border-bottom-left-radius: 4px !important;
+    }
+    input[type="submit"]{
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+  }
 }

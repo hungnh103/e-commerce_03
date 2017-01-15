@@ -30,6 +30,7 @@ gem "awesome_print", "1.7.0"
 gem "kaminari"
 gem "ransack"
 gem "bootstrap4-kaminari-views"
+gem "roo"
 
 group :development, :test do
   gem "rubocop", require: false

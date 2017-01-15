@@ -5,6 +5,8 @@ admin:
     per_page: 10
   orders_list:
     per_page: 15
+  product_list:
+    per_page: 10
 home:
   display_product: 8
 hot_trend: 15

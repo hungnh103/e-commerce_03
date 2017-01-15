@@ -7,7 +7,12 @@ class Admin::ProductsController < ApplicationController
     @product = Product.new
     @search = Product.search params[:q]
     @products = @search.result.select(:id, :name, :price, :quantity, :description, :category_id)
-      .includes(:category).order(created_at: :DESC).page(params[:page]).per 10
+      .includes(:category).order(created_at: :DESC).page(params[:page])
+      .per Settings.admin.product_list.per_page
+    respond_to do |format|
+      format.html
+      format.xls{render text: Product.all.to_csv}
+    end
   end
 
   def new

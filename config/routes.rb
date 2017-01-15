@@ -11,6 +11,9 @@ Rails.application.routes.draw do
     resources :categories
     resources :products
     resources :orders
+    resources :excel do
+      collection {post :import}
+    end
   end
 
   resources :products
