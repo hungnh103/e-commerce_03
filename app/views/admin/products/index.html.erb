@@ -42,6 +42,20 @@
   </div>
 </div>
 
+<div class="col-md-6 row import-products">
+  <%= form_tag admin_excel_index_path, multipart: :true do %>
+    <table>
+      <tr>
+        <td class="file-to-import"><%= file_field_tag :file %></td>
+        <td><%= submit_tag t(".import"), class: "btn btn-primary" %></td>
+      </tr>
+    </table>
+  <% end %>
+</div>
+
+<div class="col-md-3 row">
+  <%= link_to t(".export"), admin_products_path(format: :xls), class: "btn btn-danger" %>
+</div>
 <table class="table table-striped table-hover" id="products">
   <thead>
     <th><%= t "table_index" %></th>

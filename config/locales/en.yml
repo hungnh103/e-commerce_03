@@ -74,6 +74,9 @@ en:
     formats:
       defaults: "%d/%m/%Y"
   admin:
+    excel:
+      create:
+        product_import: "Product imported"
     categories:
       index:
         name: "Category name"
@@ -96,6 +99,8 @@ en:
         price_gteq: "Price greater than"
         price_lteq: "Price less than"
         menu: "Product menu"
+        import: "Import from Excel file"
+        export: "Export to Excel file"
       product:
         save: "Update Product"
       update:
