@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # devise_for :users, only: :omniauth_callbacks,
+  #   controllers: {omniauth_callbacks: "users/omniauth_callbacks"}
   root "static_pages#show", page: "home"
   get "/pages/*page", to: "static_pages#show"
   get "/cart", to: "cart#index"
@@ -19,5 +21,6 @@ Rails.application.routes.draw do
   resources :products
   resources :users, except: [:destroy]
   resources :requests
-  devise_for :users
+  devise_for :users,
+    controllers: {omniauth_callbacks: "omniauth_callbacks"}
 end
