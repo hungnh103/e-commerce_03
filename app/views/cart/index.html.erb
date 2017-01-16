@@ -31,12 +31,12 @@
             </td>
             <td class="product-price"><%= number_to_currency product.price %></td>
             <td>
-              <input type="number" class="form-control" value="<%= quantity %>" data="<%= product.id %>" class="item_quantiy">
+              <input type="number" min="1" class="form-control" value="<%= quantity %>" data="<%= product.id %>" class="item_quantiy">
             </td>
           </tr>
         <% end %>
       <% else %>
-        <tr><td colspan="4"><%= t "no_products" %></td></tr>
+        <tr><td colspan="4" class="no-data"><%= t "no_products" %></td></tr>
       <% end %>
     </tbody>
   </table>

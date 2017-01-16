@@ -1,4 +1,5 @@
 en:
+  confirm_order: "Your Order has been confirmed"
   login_facebook: "Login with facebook"
   wrong_authorize: "You cannot access that page"
   edit: "Edit"
@@ -65,6 +66,7 @@ en:
       request_product: "Request new Product"
       send_request_product: "Send suggestion"
       close: "Close"
+      logout: "Logout"
     admin_menu_bar:
       dashboard: "Dashboard"
       categories: "Categories"
@@ -125,7 +127,6 @@ en:
         avatar: "Avatar"
         admin_users_search: "Search user by name..."
     orders:
-      orders_create_successfully: "Your order are successully created!"
       index:
         order_code: "Order Code"
         total_value: "Total Value"
@@ -176,3 +177,14 @@ en:
       quantity: "Quantity"
       total: "Total price"
       customer_info: "Please enter your information"
+    create:
+      orders_create_successfully: "Your order are successully created!"
+  order_mailer:
+    confirm_order:
+      product_name: "Product's name"
+      price: "Price"
+      quantity: "Quantity"
+      total_money: "Total"
+      shipping_address: "Shipping Address"
+      total_pay: "Grand Total"
+      status: "Status"

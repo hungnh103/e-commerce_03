@@ -33,6 +33,8 @@ gem "bootstrap4-kaminari-views"
 gem "roo"
 gem "omniauth-facebook"
 gem "ratyrate"
+gem "delayed_job"
+gem "delayed_job_active_record"
 
 group :development, :test do
   gem "rubocop", require: false

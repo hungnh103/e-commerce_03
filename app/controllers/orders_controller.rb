@@ -12,6 +12,7 @@ class OrdersController < ApplicationController
     if @order.update_order! @session_cart,
       params[:address], params[:phone]
       flash[:success] = t ".orders_create_successfully"
+      OrderMailer.delay.confirm_order @order, current_user
     else
       flash[:danger] = @order.errors.full_messages
     end

@@ -1,5 +1,7 @@
 User.create! name: "admin", email: "admin@demo.com", role: :admin,
   password: "123qwe", password_confirmation: "123qwe"
+User.create! name: "bibi", email: "hungnh103@gmail.com", role: :user,
+  password: "123qwe", password_confirmation: "123qwe"
 
 20.times do |n|
   name = Faker::Name.name

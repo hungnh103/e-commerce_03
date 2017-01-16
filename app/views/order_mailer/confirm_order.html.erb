@@ -1,0 +1,48 @@
+<div>
+  <table class="table-bordered table-hover">
+    <thead>
+      <tr>
+        <td><%= t ".product_name" %></td>
+        <td><%= t ".price" %></td>
+        <td><%= t ".quantity" %></td>
+        <td><%= t ".total_money" %></td>
+      </tr>
+    </thead>
+    <tbody id="list-order_detail">
+      <% @order.order_details.each do |order_detail| %>
+        <tr>
+          <td><%= order_detail.product_id %></td>
+          <td>
+            <span><%= order_detail.price %></span>
+          </td>
+          <td>
+            <span><%= order_detail.quantity %></span>
+          </td>
+          <td>
+            <span><%= order_detail.price * order_detail.quantity %></span>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<div>
+  <table>
+    <tr>
+      <td>
+        <%= t ".shipping_address" %>
+      </td>
+      <td>
+        <span><%= @order.shipping_address %></span>
+      </td>
+    </tr>
+    <tr>
+      <td><%= t ".total_pay" %></td>
+      <td><%= @order.total_money %></td>
+    </tr>
+    <tr>
+      <td><%= t ".status" %></td>
+      <td><%= @order.status %></td>
+    </tr>
+  </table>
+</div>

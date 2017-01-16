@@ -21,11 +21,13 @@
             <div class="row">
               <div class="col-md-4">
                 <label for="quantity"><%= t "quantity" %></label>
-                <input id="item_quantity" type="number" name="quantity" min="1" class="form-control">
+                <input id="item_quantity" type="number" name="quantity" min="1" class="form-control" value="1">
               </div>
             </div>
             <br>
-            <button class="add-to-cart btn btn-default" data="<%= @product.id %>" type="button"><%= t ".add_to_cart" %></button>
+            <button class="add-to-cart btn btn-default" data="<%= @product.id %>" type="button">
+              <%= t ".add_to_cart" %>
+            </button>
             <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
           </div>
         </div>
@@ -41,15 +43,19 @@
       </tr>
     </thead>
     <tbody>
-      <% @specifications.each do |specification| %>
-        <tr>
-          <td class="col-md-4 title-bold">
-            <%= specification.feature_name %>
-          </td>
-          <td  class="col-md-8">
-            <%= specification.feature_value %>
-          </td>
-        </tr>
+      <% if @specifications.any? %>
+        <% @specifications.each do |specification| %>
+          <tr>
+            <td class="col-md-4 title-bold">
+              <%= specification.feature_name %>
+            </td>
+            <td  class="col-md-8">
+              <%= specification.feature_value %>
+            </td>
+          </tr>
+        <% end %>
+      <% else %>
+        <tr><td class="no-data" colspan="2"><%= t "no_data" %></td></tr>
       <% end %>
     </tbody>
   </table>
