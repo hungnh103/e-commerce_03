@@ -89,4 +89,6 @@ $(document).on('turbolinks:load', function() {
   oldTimeout = setTimeout(function() {
     $(".flash-text").fadeOut();
   }, 5000);
+
+  lineChart.initialize();
 });

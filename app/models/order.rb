@@ -41,6 +41,14 @@ class Order < ApplicationRecord
     end
   end
 
+  scope :order_count, -> date_time do
+    where("date(created_at) = '#{date_time}'")
+  end
+
+  scope :sum_order, -> date_time do
+    where("date(created_at) = '#{date_time}'")
+  end
+
   private
   def set_status_order
     self[:status] = :progress

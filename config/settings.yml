@@ -18,3 +18,7 @@ user:
   login:
     app_id: "404823109860244"
     app_secrete: "2a978a6fc2f9234cfb76d5cf5b596146"
+date_format: "%Y-%m-%d"
+weekday: 7
+one: 1
+eight: 8
