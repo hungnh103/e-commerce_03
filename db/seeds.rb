@@ -6,7 +6,8 @@ User.create! name: "admin", email: "admin@demo.com", role: :admin,
   email = "bibi#{n+1}@demo.com"
   password = "123qwe"
   User.create! name: name, email: email, role: :user, password: password,
-    password_confirmation: password
+    password_confirmation: password,
+    created_at: Time.now - (rand 30).day - (rand 10 + 1).hour - (rand 35).minute
 end
 
 Category.create! name: :electronics, description: Faker::Lorem.sentence,

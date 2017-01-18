@@ -36,7 +36,7 @@ category:
   display_product:
     per_page: 12
 chart:
-  weeks: 4
+  weeks: 30
 chatwork:
   api_key: "7487531dc544c19877d97f1c2f19c940"
   room_id: "64221980"
