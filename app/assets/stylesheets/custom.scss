@@ -124,6 +124,12 @@ header{
 
 .frontend-content{
   padding-bottom: 85px;
+  .homepage-content-left{
+    .product-cate > a{
+      background: orange;
+      color: #fff;
+    }
+  }
 }
 
 // homepage

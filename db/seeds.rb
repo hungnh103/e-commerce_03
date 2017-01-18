@@ -81,7 +81,7 @@ products = Product.take 3
     OrderDetail.create! price: price, quantity: quantity,
       product_id: product_id, order_id: order_id
   end
-  user_id = 1 + rand(User.count)
+  user_id = 2
   shipping_address = Faker::Address.street_address
   status = "progress"
   o = Order.create! user_id: user_id, shipping_address: shipping_address,
