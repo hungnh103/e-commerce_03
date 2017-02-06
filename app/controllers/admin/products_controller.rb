@@ -1,5 +1,5 @@
 class Admin::ProductsController < ApplicationController
-  before_action :authenticate_user!, :is_admin?, :load_all_leaf_categories
+  before_action :authenticate_user!, :load_all_leaf_categories
   load_and_authorize_resource
   layout "admin"
 

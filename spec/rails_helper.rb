@@ -9,6 +9,8 @@ require "devise"
 require "shoulda/matchers"
 require "factory_girl_rails"
 require "omniauth_callbacks_controller"
+require "admin/products_controller"
+require "products_controller"
 SimpleCov.start "rails"
 # Add additional requires below this line. Rails is not loaded until this point!
 

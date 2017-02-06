@@ -7,8 +7,13 @@ class Product < ApplicationRecord
   belongs_to :category
   has_many :specifications, dependent: :destroy, inverse_of: :product
   has_many :comments
+  has_many :order_details
 
   mount_uploader :image, ImageUploader
+  validates :name, presence: true, length: {maximum: 50},
+    uniqueness: {case_sensitive: false}
+  validates :price, presence: true
+  validates :quantity, presence: true, numericality: {only_integer: true}
 
   accepts_nested_attributes_for :specifications, reject_if: :all_blank,
     allow_destroy: true
