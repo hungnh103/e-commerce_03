@@ -3,7 +3,8 @@ class CommentsController < ApplicationController
   before_action :load_product
 
   def create
-    @comment = @product.comments.build comment_params
+    @comment = Comment.build comment_params
+    @comment.product = @product
     @comment.user = current_user
     render partial: "comment", locals: {comment: @comment} if @comment.save
   end

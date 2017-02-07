@@ -239,6 +239,7 @@ en:
       ago: "ago"
     destroy:
       success: "Deleted comment!"
+      danger: "Delete comment fail!"
   report: "Report from your store"
   monthly_mailer:
     mail_month:
