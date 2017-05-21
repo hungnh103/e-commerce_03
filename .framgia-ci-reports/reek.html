@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Reek Output</title>
+    <style>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #e8eef2;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      margin: 0;
+    }
+    #header {
+      background-color: #fafbfc;
+      border-bottom: 1px solid #cfdbe2;
+      margin-bottom: 20px;
+      padding: 20px;
+      color: #444444;
+    }
+    h1 {
+      margin: 0;
+    }
+    .total-warnings {
+      color: #f47f7f;
+    }
+    #reek-smells {
+      padding: 20px;
+      width: 100%;
+    }
+    .box {
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      border-color: #cfdbe2;
+      -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+      border-top-width: 3px;
+    }
+    .smell-list {
+      margin-bottom: 0px;
+      padding-left: 0px;
+    }
+    .list-item:first-child {
+      border-top-width: 0;
+    }
+    .list-item {
+      border-width: 1px 0;
+      border-radius: 0;
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+      margin-bottom: -1px;
+      background-color: #ffffff;
+      border: 1px solid #f1f2f3;
+    }
+    .list-item > .content:first-child {
+      margin-top: 0px;
+    }
+    .list-item > .content {
+      overflow: hidden;
+    }
+    .list-item > .content > .heading {
+      margin: 0 0 5px 0;
+    }
+    .list-item > .content > small {
+      float: right;
+      color: #909fa7;
+      font-size: 0.8rem;
+    }
+    .list-item > .content > p {
+      margin: 0;
+      color: #656565;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Reek Output - <span class="total-warnings">178 total warnings</span></h1>
+    </div>
+    <div id="reek-smells">
+      <div class="box">
+        <div class="smell-list">
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>DeviseCreateUsers#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 7, 8, 9, 10]</small>
+              <p>
+              <small>db/migrate/20170105075034_devise_create_users.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>DeviseCreateUsers</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105075034_devise_create_users.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>DeviseCreateUsers#change</strong> has approx 9 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105075034_devise_create_users.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>DeviseCreateUsers#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105075034_devise_create_users.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRequests#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 8]</small>
+              <p>
+              <small>db/migrate/20170105080346_create_requests.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRequests</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105080346_create_requests.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRequests#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105080346_create_requests.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateCategories#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 7, 8, 10]</small>
+              <p>
+              <small>db/migrate/20170105080517_create_categories.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateCategories</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105080517_create_categories.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateCategories#change</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105080517_create_categories.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateCategories#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105080517_create_categories.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateAddressBooks#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 7, 9]</small>
+              <p>
+              <small>db/migrate/20170105080650_create_address_books.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateAddressBooks</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105080650_create_address_books.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateAddressBooks#change</strong> has approx 6 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105080650_create_address_books.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateAddressBooks#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105080650_create_address_books.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateProducts#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 7, 8, 9, 11]</small>
+              <p>
+              <small>db/migrate/20170105081331_create_products.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateProducts</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105081331_create_products.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateProducts#change</strong> has approx 8 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105081331_create_products.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateProducts#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105081331_create_products.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrders#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 7, 9]</small>
+              <p>
+              <small>db/migrate/20170105081527_create_orders.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrders</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105081527_create_orders.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrders#change</strong> has approx 6 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105081527_create_orders.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrders#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105081527_create_orders.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateSpecifications#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 8]</small>
+              <p>
+              <small>db/migrate/20170105081601_create_specifications.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateSpecifications</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105081601_create_specifications.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateSpecifications#change</strong> has approx 6 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105081601_create_specifications.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateSpecifications#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105081601_create_specifications.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateComments#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 8]</small>
+              <p>
+              <small>db/migrate/20170105081627_create_comments.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateComments</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105081627_create_comments.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateComments#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105081627_create_comments.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrderDetails#change</strong> refers to 't' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [4, 5, 6, 7, 9]</small>
+              <p>
+              <small>db/migrate/20170105082624_create_order_details.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrderDetails</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170105082624_create_order_details.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrderDetails#change</strong> has approx 6 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170105082624_create_order_details.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOrderDetails#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170105082624_create_order_details.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>AddOmniauthToUsers</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170116025731_add_omniauth_to_users.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRatingCaches</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170116042430_create_rating_caches.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRatingCaches#self.up</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170116042430_create_rating_caches.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRatingCaches#self.up</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170116042430_create_rating_caches.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRates</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170116042437_create_rates.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRates#self.up</strong> has approx 8 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170116042437_create_rates.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateRates#self.up</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170116042437_create_rates.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateAverageCaches</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170116042438_create_average_caches.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateAverageCaches#self.up</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170116042438_create_average_caches.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOverallAverages</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170116042439_create_overall_averages.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateOverallAverages#self.up</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170116042439_create_overall_averages.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>AddSlugToProduct</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170117025754_add_slug_to_product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateFriendlyIdSlugs</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170117030022_create_friendly_id_slugs.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateFriendlyIdSlugs#change</strong> has approx 10 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>db/migrate/20170117030022_create_friendly_id_slugs.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CreateFriendlyIdSlugs#change</strong> has the variable name 't' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [3]</small>
+              <p>
+              <small>db/migrate/20170117030022_create_friendly_id_slugs.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>AddDeletedAtToProducts</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>db/migrate/20170117145611_add_deleted_at_to_products.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationCable::Channel</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>app/channels/application_cable/channel.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationCable::Connection</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>app/channels/application_cable/connection.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::CategoriesController#create</strong> calls 'format.html' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [23, 25]</small>
+              <p>
+              <small>app/controllers/admin/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::CategoriesController</strong> assumes too much for instance variable '@category' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::CategoriesController</strong> assumes too much for instance variable '@search' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::CategoriesController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::DashboardController#show</strong> calls 'Settings.chart' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [7, 11]</small>
+              <p>
+              <small>app/controllers/admin/dashboard_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::DashboardController#show</strong> calls 'Settings.chart.weeks' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [7, 11]</small>
+              <p>
+              <small>app/controllers/admin/dashboard_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::DashboardController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/dashboard_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::ExcelController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/excel_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::OrdersController</strong> assumes too much for instance variable '@order' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::OrdersController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::ProductsController</strong> assumes too much for instance variable '@product' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::ProductsController</strong> assumes too much for instance variable '@search' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::ProductsController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::ProductsController</strong> has at least 5 instance variables (TooManyInstanceVariables)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::ProductsController#index</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [6]</small>
+              <p>
+              <small>app/controllers/admin/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::RequestsController</strong> assumes too much for instance variable '@request' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/requests_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::RequestsController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/requests_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::UsersController</strong> assumes too much for instance variable '@search' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/users_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Admin::UsersController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/admin/users_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationController#load_view_object</strong> calls 'session[:recent]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [20, 20]</small>
+              <p>
+              <small>app/controllers/application_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/application_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationController#load_recent_view_session</strong> performs a nil-check (NilCheck)</div>
+              <small class="text-muted pull-right">Line [15]</small>
+              <p>
+              <small>app/controllers/application_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController#create</strong> calls 'cart[id]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [11, 11]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController#create</strong> calls 'session[:cart]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [9, 10]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController#destroy</strong> calls 'session[:cart]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [17, 18]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController#index</strong> calls 'session[:cart]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [3, 3]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController</strong> assumes too much for instance variable '@cart' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CartController#create</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [7]</small>
+              <p>
+              <small>app/controllers/cart_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CategoriesController</strong> assumes too much for instance variable '@category' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CategoriesController</strong> assumes too much for instance variable '@search' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CategoriesController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/categories_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CommentsController</strong> assumes too much for instance variable '@comment' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/comments_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CommentsController</strong> assumes too much for instance variable '@product' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/comments_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>CommentsController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/comments_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OmniauthCallbacksController#facebook</strong> calls 'request.env' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [3, 8]</small>
+              <p>
+              <small>app/controllers/omniauth_callbacks_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OmniauthCallbacksController#facebook</strong> calls 'request.env["omniauth.auth"]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [3, 8]</small>
+              <p>
+              <small>app/controllers/omniauth_callbacks_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OmniauthCallbacksController</strong> assumes too much for instance variable '@user' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/omniauth_callbacks_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OmniauthCallbacksController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/omniauth_callbacks_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> assumes too much for instance variable '@order' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> assumes too much for instance variable '@product_carts' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> assumes too much for instance variable '@search' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> assumes too much for instance variable '@session_cart' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> assumes too much for instance variable '@user' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersController</strong> has at least 7 instance variables (TooManyInstanceVariables)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/orders_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ProductsController#show</strong> calls '@product.id' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [9, 9]</small>
+              <p>
+              <small>app/controllers/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ProductsController#show</strong> calls 'session[:recent]' 4 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [6, 7, 9, 9]</small>
+              <p>
+              <small>app/controllers/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ProductsController</strong> assumes too much for instance variable '@product' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ProductsController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/products_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>RaterController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/rater_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>RequestsController</strong> assumes too much for instance variable '@request' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/requests_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>RequestsController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/requests_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>StaticPagesController</strong> assumes too much for instance variable '@recent_viewed_products' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/static_pages_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>StaticPagesController</strong> assumes too much for instance variable '@support' (InstanceVariableAssumption)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/static_pages_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>StaticPagesController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/static_pages_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>UsersController</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/controllers/users_controller.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> calls 'category.depth' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [47, 54]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> calls 'category.left' 4 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [46, 46, 52, 54]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> calls 'category.right' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [52, 54]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> calls 'depth == -1' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [44, 60]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> calls 'lft.zero?' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [43, 60]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> calls 'rgt.nil?' 3 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [43, 46, 60]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> refers to 'category' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [46, 46, 47, 51, 51, 52, 52, 54, 54, 54]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> has 4 parameters (LongParameterList)</div>
+              <small class="text-muted pull-right">Line [42]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> performs a nil-check (NilCheck)</div>
+              <small class="text-muted pull-right">Line [43, 46, 60]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#tree</strong> has approx 11 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [42]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#add_fields</strong> has the parameter name 'f' (UncommunicativeParameterName)</div>
+              <small class="text-muted pull-right">Line [19]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#calc_price_of_order_detail</strong> doesn't depend on instance state (maybe move it to another class?) (UtilityFunction)</div>
+              <small class="text-muted pull-right">Line [33]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#full_title</strong> doesn't depend on instance state (maybe move it to another class?) (UtilityFunction)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationHelper#index_for</strong> doesn't depend on instance state (maybe move it to another class?) (UtilityFunction)</div>
+              <small class="text-muted pull-right">Line [29]</small>
+              <p>
+              <small>app/helpers/application_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersHelper#send_order_information_to_chatwork</strong> calls 'ChatWork::Me.get' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [4, 5]</small>
+              <p>
+              <small>app/helpers/orders_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersHelper#send_order_information_to_chatwork</strong> calls 'Settings.chatwork' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [3, 7]</small>
+              <p>
+              <small>app/helpers/orders_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>OrdersHelper</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/helpers/orders_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>UsersHelper#gravatar_for</strong> refers to 'user' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [3, 5]</small>
+              <p>
+              <small>app/helpers/users_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>UsersHelper</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/helpers/users_helper.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ApplicationJob</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/jobs/application_job.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>MonthlyMailer</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/mailers/monthly_mailer.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>MonthlyMailer#mail_month</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [2]</small>
+              <p>
+              <small>app/mailers/monthly_mailer.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Ability</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/ability.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Category#update_category</strong> calls 'parent.right' 4 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [12, 13, 14, 14]</small>
+              <p>
+              <small>app/models/category.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Category#update_category</strong> refers to 'parent' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [12, 13, 14, 14, 14]</small>
+              <p>
+              <small>app/models/category.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Category</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/category.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Category#update_category</strong> performs a nil-check (NilCheck)</div>
+              <small class="text-muted pull-right">Line [8]</small>
+              <p>
+              <small>app/models/category.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Category#update_category</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [5]</small>
+              <p>
+              <small>app/models/category.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Category#max_right</strong> doesn't depend on instance state (maybe move it to another class?) (UtilityFunction)</div>
+              <small class="text-muted pull-right">Line [28]</small>
+              <p>
+              <small>app/models/category.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Order#update_order!</strong> calls 'item.to_i' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [36, 42]</small>
+              <p>
+              <small>app/models/order.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Order</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/order.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Order</strong> has prima donna method 'update_order!' (PrimaDonnaMethod)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/order.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Order#update_order!</strong> has approx 13 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [26]</small>
+              <p>
+              <small>app/models/order.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Order#calc_total_pay</strong> doesn't depend on instance state (maybe move it to another class?) (UtilityFunction)</div>
+              <small class="text-muted pull-right">Line [15]</small>
+              <p>
+              <small>app/models/order.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> calls 'row.to_hash' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [39, 39]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#open_spreadsheet</strong> calls 'file.original_filename' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [45, 49]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#open_spreadsheet</strong> calls 'file.path' 3 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [46, 47, 48]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> refers to 'row' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [37, 38, 39, 39]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#open_spreadsheet</strong> refers to 'file' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [45, 46, 47, 48, 49]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> contains iterators nested 2 deep (NestedIterators)</div>
+              <small class="text-muted pull-right">Line [38]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#to_csv</strong> contains iterators nested 2 deep (NestedIterators)</div>
+              <small class="text-muted pull-right">Line [56]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> performs a nil-check (NilCheck)</div>
+              <small class="text-muted pull-right">Line [38]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> has approx 9 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [32]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> has the variable name 'i' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [35]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Product#import</strong> has the variable name 'v' (UncommunicativeVariableName)</div>
+              <small class="text-muted pull-right">Line [38]</small>
+              <p>
+              <small>app/models/product.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Request</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/request.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>Supports::StaticPageSupport</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/supports/static_page_support.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User#from_omniauth</strong> calls 'auth.info' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [22, 24]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User#from_omniauth</strong> calls 'auth.provider' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [19, 20]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User#from_omniauth</strong> calls 'auth.uid' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [19, 21]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User#from_omniauth</strong> refers to 'auth' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [19, 19, 20, 21, 22, 24]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User#from_omniauth</strong> refers to 'user' more than self (maybe move it to another class?) (FeatureEnvy)</div>
+              <small class="text-muted pull-right">Line [20, 21, 22, 23, 24, 25]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>User#from_omniauth</strong> has approx 7 statements (TooManyStatements)</div>
+              <small class="text-muted pull-right">Line [18]</small>
+              <p>
+              <small>app/models/user.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ImageUploader</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/uploaders/image_uploader.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>MonthlyWorker</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>app/workers/monthly_worker.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>MonthlyWorker#perform</strong> doesn't depend on instance state (maybe move it to another class?) (UtilityFunction)</div>
+              <small class="text-muted pull-right">Line [4]</small>
+              <p>
+              <small>app/workers/monthly_worker.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> calls 'allow(controller)' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [6, 9]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> calls 'allow(request.env["warden"])' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [5, 8]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> calls 'receive(:authenticate!)' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [5, 8]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> calls 'receive(:current_user)' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [6, 9]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> calls 'request.env' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [5, 8]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> calls 'request.env["warden"]' 2 times (DuplicateMethodCall)</div>
+              <small class="text-muted pull-right">Line [5, 8]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [1]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ControllerHelpers#sign_in</strong> performs a nil-check (NilCheck)</div>
+              <small class="text-muted pull-right">Line [4]</small>
+              <p>
+              <small>spec/support/controller_helpers.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ECommerce03::Application</strong> has no descriptive comment (IrresponsibleModule)</div>
+              <small class="text-muted pull-right">Line [12]</small>
+              <p>
+              <small>config/application.rb</small>
+              </p>
+            </div>
+          </div>
+          
+          <div class="list-item">
+            <div class="content">
+              <div class="heading"><strong>ECommerce03</strong> has the name 'ECommerce03' (UncommunicativeModuleName)</div>
+              <small class="text-muted pull-right">Line [11]</small>
+              <p>
+              <small>config/application.rb</small>
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

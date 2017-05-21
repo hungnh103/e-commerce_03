@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="1.5.6">
+  <file name="/home/nguyenhuyhung/workspace/misc/e-commerce_03/app/assets/stylesheets/admin.scss">
+    <error source="SpaceBeforeBrace" line="1" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="2" column="15" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PseudoElement" line="5" column="1" length="1" severity="warning" message="Begin pseudo elements with double colons: `::`" />
+    <error source="SpaceBeforeBrace" line="5" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="6" column="3" length="12" severity="warning" message="Properties should be ordered clear, content, display, height, visibility" />
+    <error source="StringQuotes" line="6" column="12" length="3" severity="warning" message="Prefer single quoted strings" />
+    <error source="SpaceBeforeBrace" line="13" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="14" column="15" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="16" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="16" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="17" column="5" length="15" severity="warning" message="Properties should be ordered color, font-size, font-weight, margin, padding, transition" />
+    <error source="ColorVariable" line="20" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="22" column="17" length="4" severity="warning" message="`0.2` should be written without a leading zero as `.2`" />
+    <error source="EmptyLineBetweenBlocks" line="23" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="23" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="25" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="26" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="28" column="7" length="11" severity="warning" message="Properties should be ordered display, float, margin-right, width" />
+    <error source="SpaceBeforeBrace" line="35" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="36" column="15" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="37" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="37" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="39" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="DeclarationOrder" line="40" column="1" length="1" severity="warning" message="Expected item on line 40 to appear before line 37. Rule sets should be ordered as follows: `@extends`, `@includes` without `@content`, properties, `@includes` with `@content`, nested rule sets" />
+    <error source="EmptyLineBetweenBlocks" line="41" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="41" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="42" column="5" length="20" severity="warning" message="Properties should be ordered border-bottom, margin-bottom, padding-bottom" />
+    <error source="ColorVariable" line="43" column="20" length="14" severity="warning" message="Color literals like `#000` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="45" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="46" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="48" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="49" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="50" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="54" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="55" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="56" column="5" length="27" severity="warning" message="Properties should be ordered background, border-top-left-radius, border-top-right-radius, color, font-weight" />
+    <error source="ColorVariable" line="58" column="17" length="7" severity="warning" message="Color literals like `#1DA1F2` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="58" column="17" length="7" severity="warning" message="Color `#1DA1F2` should be written as `#1da1f2`" />
+    <error source="ColorVariable" line="59" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="61" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="62" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="64" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="65" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="66" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="68" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="69" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="70" column="7" length="11" severity="warning" message="Properties should be ordered border-radius, color, padding" />
+    <error source="ColorVariable" line="70" column="14" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="73" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="74" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="75" column="7" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="76" column="19" length="5" severity="warning" message="Color `brown` should be written in hexadecimal form as `#a52a2a`" />
+    <error source="ColorVariable" line="76" column="19" length="5" severity="warning" message="Color literals like `brown` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="77" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="78" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="79" column="7" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="80" column="19" length="6" severity="warning" message="Color `orange` should be written in hexadecimal form as `#ffa500`" />
+    <error source="ColorVariable" line="80" column="19" length="6" severity="warning" message="Color literals like `orange` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="81" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="82" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="83" column="7" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorVariable" line="84" column="19" length="7" severity="warning" message="Color literals like `#5bc0de` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="85" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="86" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="87" column="7" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorVariable" line="88" column="19" length="7" severity="warning" message="Color literals like `#5cb85c` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="89" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="90" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="93" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="94" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="96" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="96" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="BorderZero" line="97" column="7" length="12" severity="warning" message="`border: 0` is preferred over `border: none`" />
+    <error source="ImportantRule" line="98" column="7" length="29" severity="warning" message="!important should not be used" />
+    <error source="ZeroUnit" line="98" column="22" length="14" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="99" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="100" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="101" column="15" length="14" severity="warning" message="Color literals like `#000` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ImportantRule" line="102" column="7" length="38" severity="warning" message="!important should not be used" />
+    <error source="PropertySortOrder" line="102" column="7" length="38" severity="warning" message="Properties should be ordered border, border-bottom-left-radius, border-top-left-radius" />
+    <error source="ImportantRule" line="103" column="7" length="41" severity="warning" message="!important should not be used" />
+    <error source="EmptyLineBetweenBlocks" line="104" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="QualifyingElement" line="105" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="SpaceBeforeBrace" line="105" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="106" column="7" length="27" severity="warning" message="Properties should be ordered border-bottom-left-radius, border-top-left-radius" />
+    <error source="ZeroUnit" line="106" column="31" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ZeroUnit" line="107" column="34" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="109" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="110" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="111" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="113" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="114" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="116" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="117" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="119" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="120" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="121" column="7" length="11" severity="warning" message="Properties should be ordered border-radius, color, padding" />
+    <error source="ColorVariable" line="121" column="14" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="124" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="125" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="126" column="7" length="23" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="127" column="19" length="4" severity="warning" message="Color `blue` should be written in hexadecimal form as `#0000ff`" />
+    <error source="ColorVariable" line="127" column="19" length="4" severity="warning" message="Color literals like `blue` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="128" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="129" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="130" column="7" length="23" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="131" column="19" length="5" severity="warning" message="Color `green` should be written in hexadecimal form as `#008000`" />
+    <error source="ColorVariable" line="131" column="19" length="5" severity="warning" message="Color literals like `green` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="132" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="133" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="134" column="7" length="23" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="135" column="19" length="3" severity="warning" message="Color `red` should be written in hexadecimal form as `#ff0000`" />
+    <error source="ColorVariable" line="135" column="19" length="3" severity="warning" message="Color literals like `red` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+  </file>
+  <file name="/home/nguyenhuyhung/workspace/misc/e-commerce_03/app/assets/stylesheets/application.css">
+    <error source="Comment" line="1" column="1" length="3" severity="warning" message="Use `//` comments everywhere" />
+  </file>
+  <file name="/home/nguyenhuyhung/workspace/misc/e-commerce_03/app/assets/stylesheets/custom.scss">
+    <error source="StringQuotes" line="1" column="9" length="21" severity="warning" message="Prefer single quoted strings" />
+    <error source="StringQuotes" line="2" column="9" length="11" severity="warning" message="Prefer single quoted strings" />
+    <error source="SelectorFormat" line="6" column="1" length="1" severity="warning" message="Selector `menu_bar` should be written in lowercase with hyphens" />
+    <error source="SpaceBeforeBrace" line="6" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="8" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="9" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="13" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="14" column="15" length="7" severity="warning" message="Color literals like `#1DA1F2` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="14" column="15" length="7" severity="warning" message="Color `#1DA1F2` should be written as `#1da1f2`" />
+    <error source="ColorVariable" line="15" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="QualifyingElement" line="18" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="SpaceBeforeBrace" line="18" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="22" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="24" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="24" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="25" column="5" length="18" severity="warning" message="Properties should be ordered height, line-height, text-align" />
+    <error source="ImportantRule" line="27" column="5" length="28" severity="warning" message="!important should not be used" />
+    <error source="EmptyLineBetweenBlocks" line="28" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="29" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="30" column="13" length="14" severity="warning" message="Color literals like `#ddd` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="31" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="32" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="33" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="35" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="36" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="39" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="40" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="41" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="43" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="44" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="47" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="48" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="49" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="50" column="14" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="55" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="56" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="57" column="5" length="12" severity="warning" message="Properties should be ordered background-color, background-image, border, border-radius, color, font-size, height, line-height, min-width, padding" />
+    <error source="ColorVariable" line="62" column="12" length="7" severity="warning" message="Color literals like `#555555` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexLength" line="62" column="12" length="7" severity="warning" message="Color `#555555` should be written as `#555`" />
+    <error source="ColorVariable" line="63" column="23" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="65" column="13" length="14" severity="warning" message="Color literals like `#ccc` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="71" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="IdSelector" line="72" column="1" length="1" severity="warning" message="Avoid using id selectors" />
+    <error source="SelectorFormat" line="72" column="1" length="1" severity="warning" message="Selector `myModalRequest` should be written in lowercase with hyphens" />
+    <error source="SpaceBeforeBrace" line="72" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="73" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="76" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="77" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="78" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="80" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="81" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="QualifyingElement" line="82" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="SelectorDepth" line="82" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="82" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="82" column="7" length="22" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="84" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="85" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="85" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="85" column="7" length="1" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="87" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="QualifyingElement" line="88" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="SelectorDepth" line="88" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="88" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="88" column="7" length="31" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="92" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="93" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="94" column="17" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="95" column="5" length="18" severity="warning" message="Properties should be ordered background, border-color, border-radius, margin-bottom" />
+    <error source="ZeroUnit" line="95" column="20" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ColorVariable" line="96" column="19" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ZeroUnit" line="97" column="20" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="98" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="98" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="QualifyingElement" line="99" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="SelectorDepth" line="99" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="99" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="99" column="7" length="18" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="102" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="QualifyingElement" line="103" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="SpaceBeforeBrace" line="103" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="105" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="106" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ImportantRule" line="107" column="7" length="22" severity="warning" message="!important should not be used" />
+    <error source="ColorVariable" line="107" column="14" length="15" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="108" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="108" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="108" column="7" length="7" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="ImportantRule" line="109" column="9" length="24" severity="warning" message="!important should not be used" />
+    <error source="ColorKeyword" line="109" column="16" length="17" severity="warning" message="Color `yellow` should be written in hexadecimal form as `#ffff00`" />
+    <error source="ColorVariable" line="109" column="16" length="17" severity="warning" message="Color literals like `yellow` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="111" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="112" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ImportantRule" line="113" column="7" length="28" severity="warning" message="!important should not be used" />
+    <error source="ColorKeyword" line="113" column="19" length="16" severity="warning" message="Color `brown` should be written in hexadecimal form as `#a52a2a`" />
+    <error source="ColorVariable" line="113" column="19" length="16" severity="warning" message="Color literals like `brown` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="115" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="116" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ZeroUnit" line="117" column="14" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="118" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="118" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="119" column="7" length="11" severity="warning" message="Properties should be ordered height, width" />
+    <error source="SpaceBeforeBrace" line="125" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="127" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="127" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SelectorDepth" line="128" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="128" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorKeyword" line="129" column="19" length="6" severity="warning" message="Color `orange` should be written in hexadecimal form as `#ffa500`" />
+    <error source="ColorVariable" line="129" column="19" length="6" severity="warning" message="Color literals like `orange` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="130" column="14" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="131" column="7" length="12" severity="warning" message="Properties should be ordered background, color, height, width" />
+    <error source="SpaceBeforeBrace" line="138" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="139" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="140" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SelectorDepth" line="141" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="141" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="141" column="7" length="15" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="143" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="144" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="144" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="144" column="7" length="3" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="147" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="148" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="150" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="151" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="152" column="15" length="14" severity="warning" message="Color literals like `#ddd` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="154" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SelectorDepth" line="154" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="154" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="154" column="7" length="9" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="156" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SelectorDepth" line="156" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
+    <error source="SpaceBeforeBrace" line="156" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="157" column="11" length="13" severity="warning" message="Properties should be ordered border, height, margin-bottom, text-align" />
+    <error source="ColorVariable" line="159" column="19" length="17" severity="warning" message="Color literals like `#d5d5d5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="161" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SelectorDepth" line="161" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 5" />
+    <error source="SpaceBeforeBrace" line="161" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="162" column="31" length="7" severity="warning" message="Color literals like `#e5e5e5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="163" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="164" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 6" />
+    <error source="SpaceBeforeBrace" line="164" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="165" column="28" length="17" severity="warning" message="Color literals like `#d5d5d5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="166" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SelectorDepth" line="166" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 7" />
+    <error source="SpaceBeforeBrace" line="166" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="171" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="172" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 6" />
+    <error source="SpaceBeforeBrace" line="172" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="173" column="13" length="16" severity="warning" message="Properties should be ordered color, font-size, margin-bottom, margin-top" />
+    <error source="ColorVariable" line="175" column="20" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="177" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="178" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 6" />
+    <error source="SpaceBeforeBrace" line="178" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="179" column="20" length="7" severity="warning" message="Color literals like `#d42b55` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="183" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="184" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="184" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="184" column="7" length="12" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="SelectorFormat" line="192" column="1" length="1" severity="warning" message="Selector `personal_profile` should be written in lowercase with hyphens" />
+    <error source="SpaceBeforeBrace" line="192" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="193" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="195" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="196" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="202" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="203" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="204" column="17" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="205" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ZeroUnit" line="206" column="20" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="207" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="208" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="209" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="210" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="210" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="211" column="14" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="213" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="214" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ImportantRule" line="215" column="5" length="26" severity="warning" message="!important should not be used" />
+    <error source="SpaceBeforeBrace" line="220" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="Indentation" line="221" column="1" length="1" severity="warning" message="Line should be indented 2 spaces, but was indented 4 spaces" />
+    <error source="TrailingSemicolon" line="221" column="1" length="1" severity="warning" message="Declaration should be terminated by a semicolon" />
+    <error source="ImportantRule" line="221" column="5" length="31" severity="warning" message="!important should not be used" />
+    <error source="EmptyLineBetweenBlocks" line="222" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="223" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SelectorFormat" line="229" column="1" length="1" severity="warning" message="Selector `is_admin` should be written in lowercase with hyphens" />
+    <error source="SpaceBeforeBrace" line="229" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorKeyword" line="230" column="10" length="3" severity="warning" message="Color `red` should be written in hexadecimal form as `#ff0000`" />
+    <error source="ColorVariable" line="230" column="10" length="3" severity="warning" message="Color literals like `red` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="235" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="236" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="237" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SelectorDepth" line="238" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="238" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="238" column="7" length="3" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="EmptyLineBetweenBlocks" line="241" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="242" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="244" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="245" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="247" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="248" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="250" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="251" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="253" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="254" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="255" column="14" length="4" severity="warning" message="Color literals like `#000` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="256" column="7" length="17" severity="warning" message="Properties should be ordered color, font-size, font-weight" />
+    <error source="EmptyLineBetweenBlocks" line="258" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="258" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="258" column="7" length="7" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="PropertySortOrder" line="259" column="9" length="21" severity="warning" message="Properties should be ordered color, text-decoration" />
+    <error source="ColorVariable" line="260" column="16" length="7" severity="warning" message="Color literals like `#00b7f1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="266" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="267" column="3" length="11" severity="warning" message="Properties should be ordered padding, width" />
+    <error source="SpaceBeforeBrace" line="271" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="275" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="276" column="3" length="20" severity="warning" message="Properties should be ordered -webkit-box-direction, -webkit-box-orient, display, -ms-flex-direction, -webkit-flex-direction, flex-direction" />
+    <error source="VendorPrefix" line="277" column="3" length="21" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="282" column="3" length="30" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="283" column="3" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SpaceBeforeBrace" line="288" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="293" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="VendorPrefix" line="295" column="3" length="20" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="296" column="3" length="20" severity="warning" message="Properties should be ordered -webkit-box-flex, -webkit-flex-grow, flex-grow, -ms-flex-positive" />
+    <error source="SpaceBeforeBrace" line="300" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="301" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="BorderZero" line="302" column="5" length="12" severity="warning" message="`border: 0` is preferred over `border: none`" />
+    <error source="EmptyLineBetweenBlocks" line="304" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="304" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="305" column="7" length="10" severity="warning" message="Properties should be ordered margin-right, width" />
+    <error source="EmptyLineBetweenBlocks" line="307" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SelectorDepth" line="307" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="307" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="307" column="7" length="3" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="PropertySortOrder" line="308" column="9" length="15" severity="warning" message="Properties should be ordered display, max-width" />
+    <error source="EmptyLineBetweenBlocks" line="310" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorDepth" line="311" column="1" length="1" severity="warning" message="Selector should have depth of applicability no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="311" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="311" column="7" length="1" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="PropertySortOrder" line="312" column="9" length="10" severity="warning" message="Properties should be ordered margin, padding" />
+    <error source="EmptyLineBetweenBlocks" line="314" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="315" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="NestingDepth" line="315" column="7" length="14" severity="warning" message="Nesting should be no greater than 3, but was 4" />
+    <error source="SpaceBeforeBrace" line="322" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="324" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="324" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="325" column="5" length="11" severity="warning" message="Properties should be ordered -webkit-animation-duration, animation-duration, -webkit-animation-name, animation-name, width" />
+    <error source="VendorPrefix" line="326" column="5" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="328" column="5" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SpaceBeforeBrace" line="333" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="334" column="3" length="16" severity="warning" message="Properties should be ordered background, line-height, margin-top, padding" />
+    <error source="ColorVariable" line="335" column="15" length="4" severity="warning" message="Color literals like `#eee` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="VendorPrefix" line="343" column="5" length="21" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SpaceBeforeBrace" line="349" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="350" column="3" length="20" severity="warning" message="Properties should be ordered -webkit-box-direction, -webkit-box-orient, display, -ms-flex-direction, -webkit-flex-direction, flex-direction" />
+    <error source="VendorPrefix" line="351" column="3" length="21" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="356" column="3" length="30" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="357" column="3" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SpaceBeforeBrace" line="361" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="VendorPrefix" line="363" column="3" length="20" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="364" column="3" length="20" severity="warning" message="Properties should be ordered -webkit-box-flex, -webkit-flex-grow, flex-grow, -ms-flex-positive" />
+    <error source="SpaceBeforeBrace" line="371" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="372" column="3" length="25" severity="warning" message="Properties should be ordered font-weight, text-transform" />
+    <error source="SpaceBeforeBrace" line="377" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="378" column="10" length="7" severity="warning" message="Color literals like `#ff9f1a` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="386" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="390" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="394" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="396" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="396" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="401" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="402" column="3" length="21" severity="warning" message="Properties should be ordered border-radius, display, height, margin-right, vertical-align, width" />
+    <error source="EmptyLineBetweenBlocks" line="408" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="408" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="414" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="415" column="15" length="7" severity="warning" message="Color literals like `#ff9f1a` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="416" column="3" length="20" severity="warning" message="Properties should be ordered background, border, color, font-weight, padding, text-transform, -webkit-transition, transition" />
+    <error source="BorderZero" line="417" column="3" length="12" severity="warning" message="`border: 0` is preferred over `border: none`" />
+    <error source="ColorVariable" line="420" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="VendorPrefix" line="421" column="3" length="39" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SpaceBeforeBrace" line="426" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="427" column="15" length="7" severity="warning" message="Color literals like `#b36800` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="428" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="431" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="432" column="3" length="18" severity="warning" message="Properties should be ordered line-height, text-align" />
+    <error source="EmptyLineBetweenBlocks" line="434" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="PseudoElement" line="434" column="1" length="1" severity="warning" message="Begin pseudo elements with double colons: `::`" />
+    <error source="SpaceBeforeBrace" line="434" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="435" column="5" length="24" severity="warning" message="Properties should be ordered color, content, font-family" />
+    <error source="StringQuotes" line="436" column="14" length="7" severity="warning" message="Prefer single quoted strings" />
+    <error source="ColorVariable" line="437" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="441" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="442" column="15" length="7" severity="warning" message="Color literals like `#ff9f1a` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="445" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="446" column="15" length="7" severity="warning" message="Color literals like `#85ad00` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="449" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="450" column="15" length="7" severity="warning" message="Color literals like `#0076ad` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="453" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="457" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="461" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="462" column="3" length="6" severity="warning" message="Properties should be ordered -moz-border-radius, -webkit-border-radius, border-radius, left, margin-left, margin-top, top" />
+    <error source="VendorPrefix" line="466" column="3" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="467" column="3" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="Shorthand" line="468" column="18" length="13" severity="warning" message="Shorthand form for property `border-radius` should be written more concisely as `0 6px 6px` instead of `0 6px 6px 6px`" />
+    <error source="SpaceBeforeBrace" line="471" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PseudoElement" line="475" column="1" length="1" severity="warning" message="Begin pseudo elements with double colons: `::`" />
+    <error source="SpaceBeforeBrace" line="475" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="476" column="3" length="14" severity="warning" message="Properties should be ordered border-color, border-left-color, border-style, border-width, content, display, float, height, margin-right, margin-top, width" />
+    <error source="StringQuotes" line="477" column="12" length="3" severity="warning" message="Prefer single quoted strings" />
+    <error source="ColorVariable" line="484" column="22" length="7" severity="warning" message="Color literals like `#cccccc` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexLength" line="484" column="22" length="7" severity="warning" message="Color `#cccccc` should be written as `#ccc`" />
+    <error source="PseudoElement" line="489" column="1" length="1" severity="warning" message="Begin pseudo elements with double colons: `::`" />
+    <error source="SpaceBeforeBrace" line="489" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="490" column="22" length="7" severity="warning" message="Color literals like `#ffffff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexLength" line="490" column="22" length="7" severity="warning" message="Color `#ffffff` should be written as `#fff`" />
+    <error source="MergeableSelector" line="493" column="1" length="1" severity="warning" message="Merge rule `.dropdown-submenu.pull-left` with rule on line 457" />
+    <error source="SpaceBeforeBrace" line="493" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="MergeableSelector" line="497" column="1" length="1" severity="warning" message="Merge rule `.dropdown-submenu.pull-left&gt;.dropdown-menu` with rule on line 457" />
+    <error source="SpaceBeforeBrace" line="497" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="498" column="3" length="11" severity="warning" message="Properties should be ordered -moz-border-radius, -webkit-border-radius, border-radius, left, margin-left" />
+    <error source="VendorPrefix" line="500" column="3" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="501" column="3" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="Comment" line="505" column="1" length="9" severity="warning" message="Use `//` comments everywhere" />
+    <error source="SpaceBeforeBrace" line="506" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="507" column="21" length="7" severity="warning" message="Color literals like `#f2dede` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="508" column="17" length="7" severity="warning" message="Color literals like `#eed3d7` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="509" column="10" length="7" severity="warning" message="Color literals like `#b94a48` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="513" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="514" column="21" length="7" severity="warning" message="Color literals like `#f2dede` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="515" column="17" length="7" severity="warning" message="Color literals like `#eed3d7` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="516" column="10" length="7" severity="warning" message="Color literals like `#b94a48` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="520" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="521" column="21" length="7" severity="warning" message="Color literals like `#dff0d8` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="522" column="17" length="7" severity="warning" message="Color literals like `#d6e9c6` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="523" column="10" length="7" severity="warning" message="Color literals like `#468847` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="527" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="528" column="21" length="7" severity="warning" message="Color literals like `#dff0d8` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="529" column="17" length="7" severity="warning" message="Color literals like `#d6e9c6` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorVariable" line="530" column="10" length="7" severity="warning" message="Color literals like `#468847` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="534" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="535" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="536" column="5" length="11" severity="warning" message="Properties should be ordered border-radius, color, padding" />
+    <error source="ColorVariable" line="536" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="539" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="540" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="541" column="5" length="21" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="542" column="17" length="4" severity="warning" message="Color `blue` should be written in hexadecimal form as `#0000ff`" />
+    <error source="ColorVariable" line="542" column="17" length="4" severity="warning" message="Color literals like `blue` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="543" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="544" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="545" column="5" length="21" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="546" column="17" length="5" severity="warning" message="Color `green` should be written in hexadecimal form as `#008000`" />
+    <error source="ColorVariable" line="546" column="17" length="5" severity="warning" message="Color literals like `green` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="547" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="548" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="549" column="5" length="21" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="550" column="17" length="3" severity="warning" message="Color `red` should be written in hexadecimal form as `#ff0000`" />
+    <error source="ColorVariable" line="550" column="17" length="3" severity="warning" message="Color literals like `red` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="554" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="556" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="556" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="557" column="5" length="11" severity="warning" message="Properties should be ordered border-radius, color, padding" />
+    <error source="ColorVariable" line="557" column="12" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="560" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="561" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="562" column="5" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="563" column="17" length="6" severity="warning" message="Color `orange` should be written in hexadecimal form as `#ffa500`" />
+    <error source="ColorVariable" line="563" column="17" length="6" severity="warning" message="Color literals like `orange` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="564" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="565" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="566" column="5" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorVariable" line="567" column="17" length="7" severity="warning" message="Color literals like `#5bc0de` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="568" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="569" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="570" column="5" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorVariable" line="571" column="17" length="7" severity="warning" message="Color literals like `#5cb85c` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="572" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="573" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PlaceholderInExtend" line="574" column="5" length="19" severity="warning" message="Prefer using placeholder selectors (e.g. %some-placeholder) with @extend" />
+    <error source="ColorKeyword" line="575" column="17" length="5" severity="warning" message="Color `brown` should be written in hexadecimal form as `#a52a2a`" />
+    <error source="ColorVariable" line="575" column="17" length="5" severity="warning" message="Color literals like `brown` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="579" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="580" column="3" length="13" severity="warning" message="Properties should be ordered border, height, margin-bottom, text-align" />
+    <error source="ColorVariable" line="582" column="11" length="17" severity="warning" message="Color literals like `#d5d5d5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="584" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="584" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="585" column="23" length="7" severity="warning" message="Color literals like `#e5e5e5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="586" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="587" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="588" column="20" length="17" severity="warning" message="Color literals like `#d5d5d5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="589" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="589" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="594" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="595" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="596" column="5" length="16" severity="warning" message="Properties should be ordered color, font-size, margin-bottom, margin-top" />
+    <error source="ColorVariable" line="598" column="12" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="600" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="601" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="ColorVariable" line="602" column="12" length="7" severity="warning" message="Color literals like `#d42b55` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceBeforeBrace" line="607" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="608" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+  </file>
+  <file name="/home/nguyenhuyhung/workspace/misc/e-commerce_03/app/assets/stylesheets/sweetalert.css">
+    <error source="QualifyingElement" line="1" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="ColorKeyword" line="6" column="21" length="5" severity="warning" message="Color `black` should be written in hexadecimal form as `#000000`" />
+    <error source="ColorVariable" line="6" column="21" length="5" severity="warning" message="Color literals like `black` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Comment" line="7" column="3" length="9" severity="warning" message="Use `//` comments everywhere" />
+    <error source="PropertySortOrder" line="8" column="3" length="65" severity="warning" message="Properties should be ordered background-color, bottom, display, -ms-filter, left, position, right, top, z-index" />
+    <error source="VendorPrefix" line="8" column="3" length="65" severity="warning" message="Avoid vendor prefixes." />
+    <error source="StringQuotes" line="8" column="15" length="53" severity="warning" message="Prefer single quoted strings" />
+    <error source="Comment" line="9" column="3" length="9" severity="warning" message="Use `//` comments everywhere" />
+    <error source="DuplicateProperty" line="10" column="3" length="36" severity="warning" message="Property `background-color` already defined on line 6" />
+    <error source="ColorVariable" line="10" column="21" length="18" severity="warning" message="Color literals like `rgba(0, 0, 0, 0.4)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="10" column="35" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="ColorKeyword" line="20" column="21" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="20" column="21" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="21" column="3" length="72" severity="warning" message="Properties should be ordered background-color, border-radius, display, font-family, left, margin-left, margin-top, overflow, padding, position, text-align, top, width, z-index" />
+    <error source="EmptyLineBetweenBlocks" line="33" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="34" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="PropertySortOrder" line="36" column="7" length="11" severity="warning" message="Properties should be ordered left, margin-left, margin-right, right, width" />
+    <error source="EmptyLineBetweenBlocks" line="40" column="1" length="1" severity="warning" message="@media declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="41" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="Indentation" line="41" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="41" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert h2` with rule on line 19" />
+    <error source="ColorVariable" line="42" column="12" length="7" severity="warning" message="Color literals like `#575757` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="43" column="5" length="15" severity="warning" message="Properties should be ordered color, display, font-size, font-weight, line-height, margin, padding, position, text-align, text-transform" />
+    <error source="EmptyLineBetweenBlocks" line="51" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="52" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="52" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert p` with rule on line 19" />
+    <error source="ColorVariable" line="53" column="12" length="7" severity="warning" message="Color literals like `#797979` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="54" column="5" length="15" severity="warning" message="Properties should be ordered color, float, font-size, font-weight, line-height, margin, padding, position, text-align" />
+    <error source="DuplicateProperty" line="58" column="5" length="19" severity="warning" message="Property `text-align` already defined on line 55" />
+    <error source="EmptyLineBetweenBlocks" line="62" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="63" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="63" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert fieldset` with rule on line 19" />
+    <error source="BorderZero" line="64" column="5" length="12" severity="warning" message="`border: 0` is preferred over `border: none`" />
+    <error source="EmptyLineBetweenBlocks" line="65" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="66" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="66" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-error-container` with rule on line 19" />
+    <error source="ColorVariable" line="67" column="23" length="7" severity="warning" message="Color literals like `#f1f1f1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="PropertySortOrder" line="70" column="5" length="16" severity="warning" message="Properties should be ordered background-color, margin-left, margin-right, max-height, overflow, padding, transition, webkit-transition" />
+    <error source="PropertySpelling" line="73" column="5" length="50" severity="warning" message="Unknown property webkit-transition" />
+    <error source="LeadingZero" line="73" column="24" length="31" severity="warning" message="`0.15` should be written without a leading zero as `.15`" />
+    <error source="LeadingZero" line="73" column="24" length="31" severity="warning" message="`0.15` should be written without a leading zero as `.15`" />
+    <error source="EmptyLineBetweenBlocks" line="74" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="74" column="17" length="31" severity="warning" message="`0.15` should be written without a leading zero as `.15`" />
+    <error source="LeadingZero" line="74" column="17" length="31" severity="warning" message="`0.15` should be written without a leading zero as `.15`" />
+    <error source="Indentation" line="75" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="75" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-error-container.show` with rule on line 19" />
+    <error source="PropertySortOrder" line="76" column="7" length="15" severity="warning" message="Properties should be ordered max-height, padding, transition, webkit-transition" />
+    <error source="PropertySpelling" line="78" column="7" length="48" severity="warning" message="Unknown property webkit-transition" />
+    <error source="LeadingZero" line="78" column="26" length="29" severity="warning" message="`0.2` should be written without a leading zero as `.2`" />
+    <error source="LeadingZero" line="78" column="26" length="29" severity="warning" message="`0.2` should be written without a leading zero as `.2`" />
+    <error source="EmptyLineBetweenBlocks" line="79" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="79" column="19" length="31" severity="warning" message="`0.25` should be written without a leading zero as `.25`" />
+    <error source="LeadingZero" line="79" column="19" length="31" severity="warning" message="`0.25` should be written without a leading zero as `.25`" />
+    <error source="Indentation" line="80" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="80" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-error-container .icon` with rule on line 19" />
+    <error source="PropertySortOrder" line="81" column="7" length="21" severity="warning" message="Properties should be ordered background-color, border-radius, color, display, height, line-height, margin-right, text-align, width" />
+    <error source="ColorVariable" line="85" column="25" length="7" severity="warning" message="Color literals like `#ea7d7d` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ColorKeyword" line="86" column="14" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="86" column="14" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="89" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="90" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="90" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-error-container p` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="91" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="92" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="92" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-input-error` with rule on line 19" />
+    <error source="PropertySortOrder" line="93" column="5" length="18" severity="warning" message="Properties should be ordered height, opacity, position, right, top, -webkit-transform, transform, -webkit-transform-origin, transform-origin, -webkit-transition, transition, width" />
+    <error source="VendorPrefix" line="99" column="5" length="29" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="99" column="30" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="LeadingZero" line="100" column="22" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="VendorPrefix" line="101" column="5" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="103" column="5" length="28" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="103" column="25" length="8" severity="warning" message="`0.1` should be written without a leading zero as `.1`" />
+    <error source="EmptyLineBetweenBlocks" line="104" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="104" column="17" length="8" severity="warning" message="`0.1` should be written without a leading zero as `.1`" />
+    <error source="Indentation" line="105" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="SingleLinePerSelector" line="105" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="PropertySortOrder" line="106" column="7" length="11" severity="warning" message="Properties should be ordered background-color, border-radius, content, height, left, margin-left, margin-top, position, top, width" />
+    <error source="StringQuotes" line="106" column="16" length="2" severity="warning" message="Prefer single quoted strings" />
+    <error source="ColorVariable" line="109" column="25" length="7" severity="warning" message="Color literals like `#f06e57` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="EmptyLineBetweenBlocks" line="115" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="116" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="116" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-input-error::before` with rule on line 19" />
+    <error source="VendorPrefix" line="117" column="7" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="118" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="119" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="119" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-input-error::after` with rule on line 19" />
+    <error source="VendorPrefix" line="120" column="7" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="121" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="122" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="122" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-input-error.show` with rule on line 19" />
+    <error source="VendorPrefix" line="124" column="7" length="27" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="125" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="126" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="126" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input` with rule on line 19" />
+    <error source="PropertySortOrder" line="127" column="5" length="11" severity="warning" message="Properties should be ordered border, border-radius, box-shadow, box-sizing, display, font-size, height, margin-bottom, margin-top, padding, -webkit-transition, transition, width" />
+    <error source="ColorVariable" line="130" column="13" length="17" severity="warning" message="Color literals like `#d7d7d7` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ZeroUnit" line="135" column="23" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ColorVariable" line="135" column="35" length="19" severity="warning" message="Color literals like `rgba(0, 0, 0, 0.06)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="135" column="49" length="4" severity="warning" message="`0.06` should be written without a leading zero as `.06`" />
+    <error source="VendorPrefix" line="138" column="5" length="28" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="138" column="25" length="8" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="EmptyLineBetweenBlocks" line="139" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="139" column="17" length="8" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="Indentation" line="140" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="140" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input:focus` with rule on line 19" />
+    <error source="PropertySortOrder" line="141" column="7" length="13" severity="warning" message="Properties should be ordered border, box-shadow, outline" />
+    <error source="ColorVariable" line="142" column="19" length="19" severity="warning" message="Color literals like `#c4e6f5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="ZeroUnit" line="142" column="19" length="19" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ZeroUnit" line="142" column="19" length="19" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="143" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="143" column="15" length="17" severity="warning" message="Color literals like `#b4dbed` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="144" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="144" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input:focus::-moz-placeholder` with rule on line 19" />
+    <error source="VendorPrefix" line="144" column="1" length="1" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="145" column="9" length="35" severity="warning" message="Properties should be ordered opacity, transition" />
+    <error source="LeadingZero" line="145" column="21" length="23" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="145" column="21" length="23" severity="warning" message="`0.03` should be written without a leading zero as `.03`" />
+    <error source="EmptyLineBetweenBlocks" line="146" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="146" column="18" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="Indentation" line="147" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="147" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input:focus:-ms-input-placeholder` with rule on line 19" />
+    <error source="PropertySortOrder" line="148" column="9" length="35" severity="warning" message="Properties should be ordered opacity, transition" />
+    <error source="LeadingZero" line="148" column="21" length="23" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="148" column="21" length="23" severity="warning" message="`0.03` should be written without a leading zero as `.03`" />
+    <error source="EmptyLineBetweenBlocks" line="149" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="149" column="18" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="Indentation" line="150" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="150" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input:focus::-webkit-input-placeholder` with rule on line 19" />
+    <error source="PropertySortOrder" line="151" column="9" length="35" severity="warning" message="Properties should be ordered opacity, transition" />
+    <error source="LeadingZero" line="151" column="21" length="23" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="151" column="21" length="23" severity="warning" message="`0.03` should be written without a leading zero as `.03`" />
+    <error source="EmptyLineBetweenBlocks" line="152" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="152" column="18" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="Indentation" line="153" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="153" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input::-moz-placeholder` with rule on line 19" />
+    <error source="VendorPrefix" line="153" column="1" length="1" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="154" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="154" column="14" length="7" severity="warning" message="Color literals like `#bdbdbd` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="155" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="155" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input::-ms-clear` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="156" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="157" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="157" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input:-ms-input-placeholder` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="158" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="158" column="14" length="7" severity="warning" message="Color literals like `#bdbdbd` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="159" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="159" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert input::-webkit-input-placeholder` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="160" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="160" column="14" length="7" severity="warning" message="Color literals like `#bdbdbd` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="161" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="161" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert.show-input input` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="162" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="163" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="163" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-confirm-button-container` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="165" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="166" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="166" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .la-ball-fall` with rule on line 19" />
+    <error source="PropertySortOrder" line="167" column="5" length="18" severity="warning" message="Properties should be ordered left, margin-left, margin-top, opacity, position, top, visibility" />
+    <error source="EmptyLineBetweenBlocks" line="173" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="174" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="174" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button` with rule on line 19" />
+    <error source="ColorVariable" line="175" column="23" length="7" severity="warning" message="Color literals like `#8CD4F5` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="175" column="23" length="7" severity="warning" message="Color `#8CD4F5` should be written as `#8cd4f5`" />
+    <error source="PropertySortOrder" line="176" column="5" length="12" severity="warning" message="Properties should be ordered background-color, border, -webkit-border-radius, border-radius, box-shadow, color, cursor, font-size, font-weight, margin, padding" />
+    <error source="ColorKeyword" line="176" column="12" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="176" column="12" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="BorderZero" line="177" column="5" length="12" severity="warning" message="`border: 0` is preferred over `border: none`" />
+    <error source="VendorPrefix" line="181" column="5" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="Shorthand" line="184" column="13" length="14" severity="warning" message="Shorthand form for property `margin` should be written more concisely as `26px 5px 0` instead of `26px 5px 0 5px`" />
+    <error source="EmptyLineBetweenBlocks" line="185" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="186" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="186" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button:focus` with rule on line 19" />
+    <error source="PropertySortOrder" line="187" column="7" length="13" severity="warning" message="Properties should be ordered box-shadow, outline" />
+    <error source="EmptyLineBetweenBlocks" line="188" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="188" column="27" length="24" severity="warning" message="Color literals like `rgba(128, 179, 235, 0.5)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="188" column="47" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="ColorVariable" line="188" column="69" length="19" severity="warning" message="Color literals like `rgba(0, 0, 0, 0.05)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="188" column="83" length="4" severity="warning" message="`0.05` should be written without a leading zero as `.05`" />
+    <error source="Indentation" line="189" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="189" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button:hover` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="190" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="190" column="25" length="7" severity="warning" message="Color literals like `#7ecff4` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="191" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="191" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button:active` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="192" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="192" column="25" length="7" severity="warning" message="Color literals like `#5dc2f1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="193" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="193" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button.cancel` with rule on line 19" />
+    <error source="QualifyingElement" line="193" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="EmptyLineBetweenBlocks" line="194" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="194" column="25" length="7" severity="warning" message="Color literals like `#C1C1C1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="194" column="25" length="7" severity="warning" message="Color `#C1C1C1` should be written as `#c1c1c1`" />
+    <error source="Indentation" line="195" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="195" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button.cancel:hover` with rule on line 19" />
+    <error source="QualifyingElement" line="195" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="EmptyLineBetweenBlocks" line="196" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="196" column="27" length="7" severity="warning" message="Color literals like `#b9b9b9` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="197" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="197" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button.cancel:active` with rule on line 19" />
+    <error source="QualifyingElement" line="197" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="EmptyLineBetweenBlocks" line="198" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="198" column="27" length="7" severity="warning" message="Color literals like `#a8a8a8` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="Indentation" line="199" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="199" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button.cancel:focus` with rule on line 19" />
+    <error source="QualifyingElement" line="199" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="EmptyLineBetweenBlocks" line="200" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ImportantRule" line="200" column="9" length="107" severity="warning" message="!important should not be used" />
+    <error source="ColorVariable" line="200" column="21" length="24" severity="warning" message="Color literals like `rgba(197, 205, 211, 0.8)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="200" column="41" length="3" severity="warning" message="`0.8` should be written without a leading zero as `.8`" />
+    <error source="ZeroUnit" line="200" column="46" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ZeroUnit" line="200" column="50" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ColorVariable" line="200" column="59" length="24" severity="warning" message="Color literals like `rgba(0, 0, 0, 0.04706)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="200" column="73" length="9" severity="warning" message="`0.0470588` should be written without a leading zero as `.0470588`" />
+    <error source="ZeroUnit" line="200" column="84" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ZeroUnit" line="200" column="88" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="ZeroUnit" line="200" column="92" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="Indentation" line="201" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="201" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button[disabled]` with rule on line 19" />
+    <error source="QualifyingElement" line="201" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="PropertySortOrder" line="202" column="7" length="11" severity="warning" message="Properties should be ordered cursor, opacity" />
+    <error source="EmptyLineBetweenBlocks" line="203" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="204" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="204" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button.confirm[disabled]` with rule on line 19" />
+    <error source="QualifyingElement" line="204" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="QualifyingElement" line="204" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="EmptyLineBetweenBlocks" line="205" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="206" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="206" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button.confirm[disabled] ~ .la-ball-fall` with rule on line 19" />
+    <error source="QualifyingElement" line="206" column="1" length="1" severity="warning" message="Avoid qualifying class selectors with an element." />
+    <error source="QualifyingElement" line="206" column="1" length="1" severity="warning" message="Avoid qualifying attribute selectors with an element." />
+    <error source="PropertySortOrder" line="208" column="9" length="19" severity="warning" message="Properties should be ordered opacity, transition-delay, visibility" />
+    <error source="EmptyLineBetweenBlocks" line="209" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="210" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="210" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert button::-moz-focus-inner` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="211" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="212" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="EmptyLineBetweenBlocks" line="213" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ImportantRule" line="213" column="5" length="27" severity="warning" message="!important should not be used" />
+    <error source="Indentation" line="214" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="EmptyLineBetweenBlocks" line="215" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="216" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 2 spaces" />
+    <error source="MergeableSelector" line="216" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon` with rule on line 19" />
+    <error source="PropertySortOrder" line="217" column="5" length="11" severity="warning" message="Properties should be ordered border, -webkit-border-radius, border-radius, box-sizing, height, margin, padding, position, width" />
+    <error source="ColorKeyword" line="219" column="13" length="14" severity="warning" message="Color `gray` should be written in hexadecimal form as `#808080`" />
+    <error source="ColorVariable" line="219" column="13" length="14" severity="warning" message="Color literals like `gray` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="VendorPrefix" line="220" column="5" length="27" severity="warning" message="Avoid vendor prefixes." />
+    <error source="DuplicateProperty" line="222" column="5" length="18" severity="warning" message="Property `border-radius` already defined on line 221" />
+    <error source="EmptyLineBetweenBlocks" line="226" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="227" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="227" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="228" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="228" column="21" length="7" severity="warning" message="Color literals like `#F27474` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="228" column="21" length="7" severity="warning" message="Color `#F27474` should be written as `#f27474`" />
+    <error source="Indentation" line="229" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="229" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error .sa-x-mark` with rule on line 19" />
+    <error source="PropertySortOrder" line="230" column="9" length="18" severity="warning" message="Properties should be ordered display, position" />
+    <error source="EmptyLineBetweenBlocks" line="231" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="232" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="232" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error .sa-line` with rule on line 19" />
+    <error source="PropertySortOrder" line="233" column="9" length="18" severity="warning" message="Properties should be ordered background-color, border-radius, display, height, position, top, width" />
+    <error source="ColorVariable" line="236" column="27" length="7" severity="warning" message="Color literals like `#F27474` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="236" column="27" length="7" severity="warning" message="Color `#F27474` should be written as `#f27474`" />
+    <error source="EmptyLineBetweenBlocks" line="239" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="240" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 8 spaces" />
+    <error source="MergeableSelector" line="240" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error .sa-line.sa-left` with rule on line 19" />
+    <error source="PropertySortOrder" line="241" column="11" length="32" severity="warning" message="Properties should be ordered left, -webkit-transform, transform" />
+    <error source="VendorPrefix" line="241" column="11" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="243" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="244" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 8 spaces" />
+    <error source="MergeableSelector" line="244" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error .sa-line.sa-right` with rule on line 19" />
+    <error source="PropertySortOrder" line="245" column="11" length="33" severity="warning" message="Properties should be ordered right, -webkit-transform, transform" />
+    <error source="VendorPrefix" line="245" column="11" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="247" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="248" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="248" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-warning` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="249" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="249" column="21" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="249" column="21" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="Indentation" line="250" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="250" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-warning .sa-body` with rule on line 19" />
+    <error source="PropertySortOrder" line="251" column="9" length="18" severity="warning" message="Properties should be ordered background-color, -webkit-border-radius, border-radius, height, left, margin-left, position, top, width" />
+    <error source="VendorPrefix" line="256" column="9" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="259" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="259" column="27" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="259" column="27" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="Indentation" line="260" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="260" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-warning .sa-dot` with rule on line 19" />
+    <error source="PropertySortOrder" line="261" column="9" length="18" severity="warning" message="Properties should be ordered background-color, -webkit-border-radius, border-radius, bottom, height, left, margin-left, position, width" />
+    <error source="VendorPrefix" line="264" column="9" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="269" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="269" column="27" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="269" column="27" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="Indentation" line="270" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="270" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-info` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="271" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="271" column="21" length="7" severity="warning" message="Color literals like `#C9DAE1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="271" column="21" length="7" severity="warning" message="Color `#C9DAE1` should be written as `#c9dae1`" />
+    <error source="Indentation" line="272" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="272" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-info::before` with rule on line 19" />
+    <error source="PropertySortOrder" line="273" column="9" length="11" severity="warning" message="Properties should be ordered background-color, border-radius, bottom, content, height, left, margin-left, position, width" />
+    <error source="StringQuotes" line="273" column="18" length="2" severity="warning" message="Prefer single quoted strings" />
+    <error source="EmptyLineBetweenBlocks" line="281" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="281" column="27" length="7" severity="warning" message="Color literals like `#C9DAE1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="281" column="27" length="7" severity="warning" message="Color `#C9DAE1` should be written as `#c9dae1`" />
+    <error source="Indentation" line="282" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="282" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-info::after` with rule on line 19" />
+    <error source="PropertySortOrder" line="283" column="9" length="11" severity="warning" message="Properties should be ordered background-color, border-radius, content, height, left, margin-left, position, top, width" />
+    <error source="StringQuotes" line="283" column="18" length="2" severity="warning" message="Prefer single quoted strings" />
+    <error source="ColorVariable" line="290" column="27" length="7" severity="warning" message="Color literals like `#C9DAE1` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="290" column="27" length="7" severity="warning" message="Color `#C9DAE1` should be written as `#c9dae1`" />
+    <error source="EmptyLineBetweenBlocks" line="291" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="292" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="292" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success` with rule on line 19" />
+    <error source="EmptyLineBetweenBlocks" line="293" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="293" column="21" length="7" severity="warning" message="Color literals like `#A5DC86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="293" column="21" length="7" severity="warning" message="Color `#A5DC86` should be written as `#a5dc86`" />
+    <error source="Indentation" line="294" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="SingleLinePerSelector" line="294" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="PropertySortOrder" line="295" column="9" length="11" severity="warning" message="Properties should be ordered background, -webkit-border-radius, border-radius, content, height, position, -webkit-transform, transform, width" />
+    <error source="VendorPrefix" line="296" column="9" length="27" severity="warning" message="Avoid vendor prefixes." />
+    <error source="DuplicateProperty" line="298" column="9" length="18" severity="warning" message="Property `border-radius` already defined on line 297" />
+    <error source="ColorKeyword" line="302" column="21" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="302" column="21" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="VendorPrefix" line="303" column="9" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="304" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="305" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="305" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success::before` with rule on line 19" />
+    <error source="VendorPrefix" line="306" column="9" length="38" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="308" column="9" length="9" severity="warning" message="Properties should be ordered -webkit-border-radius, border-radius, left, top, -webkit-transform, transform, -webkit-transform-origin, transform-origin" />
+    <error source="VendorPrefix" line="310" column="9" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="312" column="9" length="35" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="313" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="314" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="314" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success::after` with rule on line 19" />
+    <error source="VendorPrefix" line="315" column="9" length="38" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="317" column="9" length="10" severity="warning" message="Properties should be ordered -webkit-border-radius, border-radius, left, top, -webkit-transform, transform, -webkit-transform-origin, transform-origin" />
+    <error source="VendorPrefix" line="319" column="9" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="321" column="9" length="34" severity="warning" message="Avoid vendor prefixes." />
+    <error source="ZeroUnit" line="321" column="35" length="8" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="322" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ZeroUnit" line="322" column="27" length="8" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="Indentation" line="323" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="323" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-placeholder` with rule on line 19" />
+    <error source="PropertySortOrder" line="324" column="9" length="11" severity="warning" message="Properties should be ordered border, -webkit-border-radius, border-radius, box-sizing, height, left, position, top, width, z-index" />
+    <error source="ColorVariable" line="326" column="27" length="24" severity="warning" message="Color literals like `rgba(165, 220, 134, 0.2)` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="LeadingZero" line="326" column="47" length="3" severity="warning" message="`0.2` should be written without a leading zero as `.2`" />
+    <error source="VendorPrefix" line="327" column="9" length="27" severity="warning" message="Avoid vendor prefixes." />
+    <error source="DuplicateProperty" line="329" column="9" length="18" severity="warning" message="Property `border-radius` already defined on line 328" />
+    <error source="EmptyLineBetweenBlocks" line="334" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="335" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="335" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-fix` with rule on line 19" />
+    <error source="PropertySortOrder" line="336" column="9" length="10" severity="warning" message="Properties should be ordered background-color, height, left, position, top, -webkit-transform, transform, width, z-index" />
+    <error source="ColorKeyword" line="338" column="27" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="338" column="27" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="VendorPrefix" line="343" column="9" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="344" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="345" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 6 spaces" />
+    <error source="MergeableSelector" line="345" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-line` with rule on line 19" />
+    <error source="PropertySortOrder" line="346" column="9" length="11" severity="warning" message="Properties should be ordered background-color, border-radius, display, height, position, z-index" />
+    <error source="ColorVariable" line="347" column="27" length="7" severity="warning" message="Color literals like `#A5DC86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="347" column="27" length="7" severity="warning" message="Color `#A5DC86` should be written as `#a5dc86`" />
+    <error source="EmptyLineBetweenBlocks" line="351" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="352" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 8 spaces" />
+    <error source="MergeableSelector" line="352" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-line.sa-tip` with rule on line 19" />
+    <error source="PropertySortOrder" line="353" column="11" length="11" severity="warning" message="Properties should be ordered left, top, -webkit-transform, transform, width" />
+    <error source="VendorPrefix" line="356" column="11" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="357" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="358" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 8 spaces" />
+    <error source="MergeableSelector" line="358" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-line.sa-long` with rule on line 19" />
+    <error source="PropertySortOrder" line="359" column="11" length="11" severity="warning" message="Properties should be ordered right, top, -webkit-transform, transform, width" />
+    <error source="VendorPrefix" line="362" column="11" length="33" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="363" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Indentation" line="364" column="1" length="1" severity="warning" message="Line should be indented 0 spaces, but was indented 4 spaces" />
+    <error source="MergeableSelector" line="364" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-custom` with rule on line 19" />
+    <error source="PropertySortOrder" line="365" column="7" length="24" severity="warning" message="Properties should be ordered background-position, background-repeat, background-size, border, border-radius" />
+    <error source="BorderZero" line="367" column="7" length="12" severity="warning" message="`border: 0` is preferred over `border: none`" />
+    <error source="Comment" line="371" column="1" length="3" severity="warning" message="Use `//` comments everywhere" />
+    <error source="VendorPrefix" line="374" column="1" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="376" column="5" length="21" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="LeadingZero" line="376" column="22" length="3" severity="warning" message="`0.7` should be written without a leading zero as `.7`" />
+    <error source="EmptyLineBetweenBlocks" line="377" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="377" column="30" length="3" severity="warning" message="`0.7` should be written without a leading zero as `.7`" />
+    <error source="PropertySortOrder" line="379" column="5" length="22" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="380" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="382" column="5" length="22" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="LeadingZero" line="382" column="22" length="4" severity="warning" message="`0.95` should be written without a leading zero as `.95`" />
+    <error source="EmptyLineBetweenBlocks" line="383" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="383" column="30" length="4" severity="warning" message="`0.95` should be written without a leading zero as `.95`" />
+    <error source="PropertySortOrder" line="385" column="5" length="19" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="PropertySortOrder" line="390" column="5" length="21" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="LeadingZero" line="390" column="22" length="3" severity="warning" message="`0.7` should be written without a leading zero as `.7`" />
+    <error source="EmptyLineBetweenBlocks" line="391" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="391" column="30" length="3" severity="warning" message="`0.7` should be written without a leading zero as `.7`" />
+    <error source="PropertySortOrder" line="393" column="5" length="22" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="394" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="396" column="5" length="22" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="LeadingZero" line="396" column="22" length="4" severity="warning" message="`0.95` should be written without a leading zero as `.95`" />
+    <error source="EmptyLineBetweenBlocks" line="397" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="LeadingZero" line="397" column="30" length="4" severity="warning" message="`0.95` should be written without a leading zero as `.95`" />
+    <error source="PropertySortOrder" line="399" column="5" length="19" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="VendorPrefix" line="402" column="1" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="404" column="5" length="19" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="405" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="407" column="5" length="21" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="LeadingZero" line="407" column="22" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="LeadingZero" line="408" column="30" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="PropertySortOrder" line="412" column="5" length="19" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="413" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="415" column="5" length="21" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="LeadingZero" line="415" column="22" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="LeadingZero" line="416" column="30" length="3" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="VendorPrefix" line="418" column="1" length="34" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="420" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="426" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="VendorPrefix" line="430" column="1" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="432" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="438" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="VendorPrefix" line="442" column="1" length="37" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="444" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="450" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="VendorPrefix" line="454" column="1" length="35" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="456" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="462" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SelectorFormat" line="466" column="1" length="1" severity="warning" message="Selector `showSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="467" column="3" length="38" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="467" column="22" length="19" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="468" column="14" length="19" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="SelectorFormat" line="470" column="1" length="1" severity="warning" message="Selector `showSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="471" column="3" length="23" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SelectorFormat" line="474" column="1" length="1" severity="warning" message="Selector `showSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="475" column="3" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="475" column="22" length="17" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="476" column="14" length="17" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="SelectorFormat" line="478" column="1" length="1" severity="warning" message="Selector `showSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="479" column="3" length="39" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="479" column="22" length="20" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="480" column="14" length="20" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="SelectorFormat" line="482" column="1" length="1" severity="warning" message="Selector `hideSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="483" column="3" length="38" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="483" column="22" length="19" severity="warning" message="`0.2` should be written without a leading zero as `.2`" />
+    <error source="LeadingZero" line="484" column="14" length="19" severity="warning" message="`0.2` should be written without a leading zero as `.2`" />
+    <error source="SelectorFormat" line="486" column="1" length="1" severity="warning" message="Selector `hideSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="487" column="3" length="23" severity="warning" message="Avoid vendor prefixes." />
+    <error source="SelectorFormat" line="490" column="1" length="1" severity="warning" message="Selector `hideSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="491" column="3" length="34" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="491" column="22" length="15" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="LeadingZero" line="492" column="14" length="15" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="SelectorFormat" line="494" column="1" length="1" severity="warning" message="Selector `hideSweetAlert` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="495" column="3" length="37" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="495" column="22" length="18" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="LeadingZero" line="496" column="14" length="18" severity="warning" message="`0.3` should be written without a leading zero as `.3`" />
+    <error source="VendorPrefix" line="498" column="1" length="39" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="500" column="5" length="8" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="502" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="504" column="5" length="8" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="506" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="508" column="5" length="11" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="510" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="512" column="5" length="11" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="514" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="516" column="5" length="11" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="PropertySortOrder" line="522" column="5" length="8" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="524" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="526" column="5" length="8" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="528" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="530" column="5" length="11" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="532" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="534" column="5" length="11" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="536" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="538" column="5" length="11" severity="warning" message="Properties should be ordered left, top, width" />
+    <error source="VendorPrefix" line="542" column="1" length="40" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="544" column="5" length="8" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="546" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="548" column="5" length="8" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="550" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="552" column="5" length="11" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="ZeroUnit" line="553" column="12" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="554" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="556" column="5" length="11" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="PropertySortOrder" line="562" column="5" length="8" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="564" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="566" column="5" length="8" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="EmptyLineBetweenBlocks" line="568" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="570" column="5" length="11" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="ZeroUnit" line="571" column="12" length="3" severity="warning" message="`0px` should be written without units as `0`" />
+    <error source="EmptyLineBetweenBlocks" line="572" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="574" column="5" length="11" severity="warning" message="Properties should be ordered right, top, width" />
+    <error source="VendorPrefix" line="578" column="1" length="39" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="580" column="5" length="25" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="581" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="583" column="5" length="25" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="584" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="586" column="5" length="26" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="587" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="589" column="5" length="26" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="PropertySortOrder" line="594" column="5" length="25" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="595" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="597" column="5" length="25" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="598" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="600" column="5" length="26" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="601" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="603" column="5" length="26" severity="warning" message="Properties should be ordered -webkit-transform, transform" />
+    <error source="SelectorFormat" line="606" column="1" length="1" severity="warning" message="Selector `animateSuccessTip` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="607" column="3" length="42" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="607" column="22" length="23" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="LeadingZero" line="608" column="14" length="23" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="SelectorFormat" line="610" column="1" length="1" severity="warning" message="Selector `animateSuccessLong` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="611" column="3" length="43" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="611" column="22" length="24" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="LeadingZero" line="612" column="14" length="24" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="VendorPrefix" line="615" column="3" length="50" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="618" column="1" length="38" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="620" column="5" length="26" severity="warning" message="Properties should be ordered opacity, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="622" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="624" column="5" length="24" severity="warning" message="Properties should be ordered opacity, -webkit-transform, transform" />
+    <error source="PropertySortOrder" line="630" column="5" length="26" severity="warning" message="Properties should be ordered opacity, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="632" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="634" column="5" length="24" severity="warning" message="Properties should be ordered opacity, -webkit-transform, transform" />
+    <error source="SelectorFormat" line="638" column="1" length="1" severity="warning" message="Selector `animateErrorIcon` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="639" column="3" length="40" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="639" column="22" length="21" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="LeadingZero" line="640" column="14" length="21" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="VendorPrefix" line="642" column="1" length="34" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="644" column="5" length="21" severity="warning" message="Properties should be ordered margin-top, opacity, -webkit-transform, transform" />
+    <error source="LeadingZero" line="644" column="22" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="LeadingZero" line="645" column="30" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="EmptyLineBetweenBlocks" line="647" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="649" column="5" length="21" severity="warning" message="Properties should be ordered margin-top, opacity, -webkit-transform, transform" />
+    <error source="LeadingZero" line="649" column="22" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="LeadingZero" line="650" column="30" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="EmptyLineBetweenBlocks" line="652" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="654" column="5" length="22" severity="warning" message="Properties should be ordered margin-top, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="656" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="658" column="5" length="19" severity="warning" message="Properties should be ordered margin-top, opacity, -webkit-transform, transform" />
+    <error source="PropertySortOrder" line="665" column="5" length="21" severity="warning" message="Properties should be ordered margin-top, opacity, -webkit-transform, transform" />
+    <error source="LeadingZero" line="665" column="22" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="LeadingZero" line="666" column="30" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="EmptyLineBetweenBlocks" line="668" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="670" column="5" length="21" severity="warning" message="Properties should be ordered margin-top, opacity, -webkit-transform, transform" />
+    <error source="LeadingZero" line="670" column="22" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="LeadingZero" line="671" column="30" length="3" severity="warning" message="`0.4` should be written without a leading zero as `.4`" />
+    <error source="EmptyLineBetweenBlocks" line="673" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="675" column="5" length="22" severity="warning" message="Properties should be ordered margin-top, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="677" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="679" column="5" length="19" severity="warning" message="Properties should be ordered margin-top, opacity, -webkit-transform, transform" />
+    <error source="SelectorFormat" line="684" column="1" length="1" severity="warning" message="Selector `animateXMark` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="685" column="3" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="685" column="22" length="17" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="LeadingZero" line="686" column="14" length="17" severity="warning" message="`0.5` should be written without a leading zero as `.5`" />
+    <error source="VendorPrefix" line="688" column="1" length="34" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="690" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="690" column="19" length="7" severity="warning" message="Color literals like `#F8D486` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="690" column="19" length="7" severity="warning" message="Color `#F8D486` should be written as `#f8d486`" />
+    <error source="ColorVariable" line="692" column="19" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="692" column="19" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="EmptyLineBetweenBlocks" line="696" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="696" column="19" length="7" severity="warning" message="Color literals like `#F8D486` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="696" column="19" length="7" severity="warning" message="Color `#F8D486` should be written as `#f8d486`" />
+    <error source="ColorVariable" line="698" column="19" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="698" column="19" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="SelectorFormat" line="700" column="1" length="1" severity="warning" message="Selector `pulseWarning` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="701" column="3" length="56" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="701" column="22" length="37" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="LeadingZero" line="702" column="14" length="37" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="VendorPrefix" line="704" column="1" length="37" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="706" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="706" column="23" length="7" severity="warning" message="Color literals like `#F8D486` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="706" column="23" length="7" severity="warning" message="Color `#F8D486` should be written as `#f8d486`" />
+    <error source="ColorVariable" line="708" column="23" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="708" column="23" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="EmptyLineBetweenBlocks" line="712" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="ColorVariable" line="712" column="23" length="7" severity="warning" message="Color literals like `#F8D486` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="712" column="23" length="7" severity="warning" message="Color `#F8D486` should be written as `#f8d486`" />
+    <error source="ColorVariable" line="714" column="23" length="7" severity="warning" message="Color literals like `#F8BB86` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="HexNotation" line="714" column="23" length="7" severity="warning" message="Color `#F8BB86` should be written as `#f8bb86`" />
+    <error source="SelectorFormat" line="716" column="1" length="1" severity="warning" message="Selector `pulseWarningIns` should be written in lowercase with hyphens" />
+    <error source="VendorPrefix" line="717" column="3" length="59" severity="warning" message="Avoid vendor prefixes." />
+    <error source="LeadingZero" line="717" column="22" length="40" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="LeadingZero" line="718" column="14" length="40" severity="warning" message="`0.75` should be written without a leading zero as `.75`" />
+    <error source="VendorPrefix" line="720" column="1" length="36" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="722" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="728" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="Comment" line="732" column="1" length="69" severity="warning" message="Use `//` comments everywhere" />
+    <error source="Comment" line="733" column="1" length="33" severity="warning" message="Use `//` comments everywhere" />
+    <error source="Comment" line="734" column="1" length="76" severity="warning" message="Use `//` comments everywhere" />
+    <error source="Comment" line="735" column="1" length="16" severity="warning" message="Use `//` comments everywhere" />
+    <error source="MergeableSelector" line="736" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error .sa-line.sa-left` with rule on line 19" />
+    <error source="VendorPrefix" line="737" column="3" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="MergeableSelector" line="739" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-error .sa-line.sa-right` with rule on line 19" />
+    <error source="VendorPrefix" line="740" column="3" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="Comment" line="742" column="1" length="18" severity="warning" message="Use `//` comments everywhere" />
+    <error source="MergeableSelector" line="743" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success` with rule on line 19" />
+    <error source="MergeableSelector" line="746" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-line.sa-tip` with rule on line 19" />
+    <error source="VendorPrefix" line="747" column="3" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="MergeableSelector" line="749" column="1" length="1" severity="warning" message="Merge rule `.sweet-alert .sa-icon.sa-success .sa-line.sa-long` with rule on line 19" />
+    <error source="VendorPrefix" line="750" column="3" length="32" severity="warning" message="Avoid vendor prefixes." />
+    <error source="Comment" line="752" column="1" length="4" severity="warning" message="Use `//` comments everywhere" />
+    <error source="PropertySortOrder" line="759" column="3" length="18" severity="warning" message="Properties should be ordered -moz-box-sizing, -webkit-box-sizing, box-sizing, position" />
+    <error source="VendorPrefix" line="760" column="3" length="30" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="761" column="3" length="27" severity="warning" message="Avoid vendor prefixes." />
+    <error source="PropertySortOrder" line="765" column="3" length="14" severity="warning" message="Properties should be ordered color, display, font-size" />
+    <error source="ColorVariable" line="767" column="10" length="4" severity="warning" message="Color literals like `#fff` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="MergeableSelector" line="769" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-dark` with rule on line 764" />
+    <error source="ColorVariable" line="770" column="10" length="4" severity="warning" message="Color literals like `#333` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="MergeableSelector" line="772" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall &gt; div` with rule on line 764" />
+    <error source="PropertySortOrder" line="773" column="3" length="21" severity="warning" message="Properties should be ordered background-color, border, display, float" />
+    <error source="MergeableSelector" line="778" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall` with rule on line 764" />
+    <error source="PropertySortOrder" line="779" column="3" length="11" severity="warning" message="Properties should be ordered height, width" />
+    <error source="MergeableSelector" line="782" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall &gt; div` with rule on line 764" />
+    <error source="PropertySortOrder" line="783" column="3" length="11" severity="warning" message="Properties should be ordered -moz-animation, -o-animation, -webkit-animation, animation, border-radius, height, margin, opacity, width" />
+    <error source="VendorPrefix" line="788" column="3" length="52" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="789" column="3" length="49" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="790" column="3" length="47" severity="warning" message="Avoid vendor prefixes." />
+    <error source="MergeableSelector" line="793" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall &gt; div:nth-child(1)` with rule on line 764" />
+    <error source="PropertySortOrder" line="794" column="3" length="31" severity="warning" message="Properties should be ordered -moz-animation-delay, -o-animation-delay, -webkit-animation-delay, animation-delay" />
+    <error source="VendorPrefix" line="794" column="3" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="795" column="3" length="28" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="796" column="3" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="MergeableSelector" line="799" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall &gt; div:nth-child(2)` with rule on line 764" />
+    <error source="PropertySortOrder" line="800" column="3" length="31" severity="warning" message="Properties should be ordered -moz-animation-delay, -o-animation-delay, -webkit-animation-delay, animation-delay" />
+    <error source="VendorPrefix" line="800" column="3" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="801" column="3" length="28" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="802" column="3" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="MergeableSelector" line="805" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall &gt; div:nth-child(3)` with rule on line 764" />
+    <error source="PropertySortOrder" line="806" column="3" length="28" severity="warning" message="Properties should be ordered -moz-animation-delay, -o-animation-delay, -webkit-animation-delay, animation-delay" />
+    <error source="VendorPrefix" line="806" column="3" length="28" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="807" column="3" length="25" severity="warning" message="Avoid vendor prefixes." />
+    <error source="VendorPrefix" line="808" column="3" length="23" severity="warning" message="Avoid vendor prefixes." />
+    <error source="MergeableSelector" line="811" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-sm` with rule on line 764" />
+    <error source="PropertySortOrder" line="812" column="3" length="11" severity="warning" message="Properties should be ordered height, width" />
+    <error source="MergeableSelector" line="815" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-sm &gt; div` with rule on line 764" />
+    <error source="PropertySortOrder" line="816" column="3" length="10" severity="warning" message="Properties should be ordered height, margin, width" />
+    <error source="MergeableSelector" line="820" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-2x` with rule on line 764" />
+    <error source="PropertySortOrder" line="821" column="3" length="12" severity="warning" message="Properties should be ordered height, width" />
+    <error source="MergeableSelector" line="824" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-2x &gt; div` with rule on line 764" />
+    <error source="PropertySortOrder" line="825" column="3" length="11" severity="warning" message="Properties should be ordered height, margin, width" />
+    <error source="MergeableSelector" line="829" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-3x` with rule on line 764" />
+    <error source="PropertySortOrder" line="830" column="3" length="12" severity="warning" message="Properties should be ordered height, width" />
+    <error source="MergeableSelector" line="833" column="1" length="1" severity="warning" message="Merge rule `.la-ball-fall.la-3x &gt; div` with rule on line 764" />
+    <error source="PropertySortOrder" line="834" column="3" length="11" severity="warning" message="Properties should be ordered height, margin, width" />
+    <error source="Comment" line="838" column="1" length="3" severity="warning" message="Use `//` comments everywhere" />
+    <error source="VendorPrefix" line="841" column="1" length="31" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="845" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="847" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="851" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="855" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="857" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="VendorPrefix" line="863" column="1" length="28" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="867" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="869" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="873" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="877" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="879" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="VendorPrefix" line="885" column="1" length="26" severity="warning" message="Avoid vendor prefixes." />
+    <error source="EmptyLineBetweenBlocks" line="889" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="891" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="895" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="899" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="901" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="910" column="5" length="36" severity="warning" message="Properties should be ordered opacity, -moz-transform, -o-transform, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="913" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="915" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="918" column="5" length="32" severity="warning" message="Properties should be ordered opacity, -moz-transform, -o-transform, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="921" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="924" column="5" length="32" severity="warning" message="Properties should be ordered opacity, -moz-transform, -o-transform, -webkit-transform, transform" />
+    <error source="EmptyLineBetweenBlocks" line="927" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="929" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="PropertySortOrder" line="932" column="5" length="35" severity="warning" message="Properties should be ordered opacity, -moz-transform, -o-transform, -webkit-transform, transform" />
+  </file>
+</checkstyle>

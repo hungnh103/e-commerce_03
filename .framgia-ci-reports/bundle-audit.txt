@@ -1,0 +1,21 @@
+Updating ruby-advisory-db ...
+Already up-to-date.
+Updated ruby-advisory-db
+ruby-advisory-db: 285 advisories
+Name: nokogiri
+Version: 1.7.0.1
+Advisory: CVE-2016-4658
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/issues/1615
+Title: Nokogiri gem contains several vulnerabilities in libxml2 and libxslt
+Solution: upgrade to >= 1.7.1
+
+Name: rubyzip
+Version: 1.2.0
+Advisory: CVE-2017-5946
+Criticality: Unknown
+URL: https://github.com/rubyzip/rubyzip/issues/315
+Title: Directory traversal vulnerability in rubyzip
+Solution: upgrade to >= 1.2.1
+
+Vulnerabilities found!

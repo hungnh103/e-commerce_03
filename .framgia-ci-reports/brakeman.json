@@ -1,0 +1,276 @@
+{
+  "scan_info": {
+    "app_path": "/home/nguyenhuyhung/workspace/misc/e-commerce_03",
+    "rails_version": "5.0.1",
+    "security_warnings": 10,
+    "start_time": "2017-05-21 14:47:54 +0700",
+    "end_time": "2017-05-21 14:47:55 +0700",
+    "duration": 0.980254578,
+    "checks_performed": [
+      "BasicAuth",
+      "BasicAuthTimingAttack",
+      "ContentTag",
+      "CreateWith",
+      "CrossSiteScripting",
+      "DefaultRoutes",
+      "Deserialize",
+      "DetailedExceptions",
+      "DigestDoS",
+      "DynamicFinders",
+      "EscapeFunction",
+      "Evaluation",
+      "Execute",
+      "FileAccess",
+      "FileDisclosure",
+      "FilterSkipping",
+      "ForgerySetting",
+      "HeaderDoS",
+      "I18nXSS",
+      "JRubyXML",
+      "JSONEncoding",
+      "JSONParsing",
+      "LinkTo",
+      "LinkToHref",
+      "MailTo",
+      "MassAssignment",
+      "MimeTypeDoS",
+      "ModelAttrAccessible",
+      "ModelAttributes",
+      "ModelSerialize",
+      "NestedAttributes",
+      "NestedAttributesBypass",
+      "NumberToCurrency",
+      "QuoteTableName",
+      "Redirect",
+      "RegexDoS",
+      "Render",
+      "RenderDoS",
+      "RenderInline",
+      "ResponseSplitting",
+      "RouteDoS",
+      "SQL",
+      "SQLCVEs",
+      "SSLVerify",
+      "SafeBufferManipulation",
+      "SanitizeMethods",
+      "SelectTag",
+      "SelectVulnerability",
+      "Send",
+      "SendFile",
+      "SessionManipulation",
+      "SessionSettings",
+      "SimpleFormat",
+      "SingleQuotes",
+      "SkipBeforeFilter",
+      "StripTags",
+      "SymbolDoSCVE",
+      "TranslateBug",
+      "UnsafeReflection",
+      "ValidationRegex",
+      "WithoutProtection",
+      "XMLDoS",
+      "YAMLParsing"
+    ],
+    "number_of_controllers": 18,
+    "number_of_models": 16,
+    "number_of_templates": 48,
+    "ruby_version": "2.3.3",
+    "brakeman_version": "3.6.2"
+  },
+  "warnings": [
+    {
+      "warning_type": "Dynamic Render Path",
+      "warning_code": 15,
+      "fingerprint": "12ffe0fa0f46e19c35d75b6f209e05783dfe82ea32bf4b3ca1d52dcd029f3309",
+      "check_name": "Render",
+      "message": "Render path contains parameter value",
+      "file": "app/controllers/static_pages_controller.rb",
+      "line": 4,
+      "link": "http://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+      "code": "render(template => \"static_pages/#{params[:page]}\", { :locals => ({ :support => Supports::StaticPageSupport.new, :recent_viewed_products => (session[:recent].map do\n Product.find_by(:id => id)\n end) }) })",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "StaticPagesController",
+        "method": "show"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Medium"
+    },
+    {
+      "warning_type": "Remote Code Execution",
+      "warning_code": 24,
+      "fingerprint": "235b98f58880e76ed734a4a72829fab151c4c5470bac7e25e3eb27b6da8bc22a",
+      "check_name": "UnsafeReflection",
+      "message": "Unsafe reflection method constantize called with parameter value",
+      "file": "app/controllers/rater_controller.rb",
+      "line": 4,
+      "link": "http://brakemanscanner.org/docs/warning_types/remote_code_execution/",
+      "code": "params[:klass].classify.constantize",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "RaterController",
+        "method": "create"
+      },
+      "user_input": "params[:klass].classify",
+      "confidence": "High"
+    },
+    {
+      "warning_type": "Cross Site Scripting",
+      "warning_code": 84,
+      "fingerprint": "5e8991a5b96cadd3af94b31fac592d0c0264a2763742c01d6e96c1060c4fa92a",
+      "check_name": "RenderInline",
+      "message": "Unescaped model attribute rendered inline",
+      "file": "app/controllers/admin/products_controller.rb",
+      "line": 15,
+      "link": "http://brakemanscanner.org/docs/warning_types/cross_site_scripting/",
+      "code": "render(text => Product.all.to_csv, {})",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "Admin::ProductsController",
+        "method": "index"
+      },
+      "user_input": "Product.all.to_csv",
+      "confidence": "Medium"
+    },
+    {
+      "warning_type": "Dynamic Render Path",
+      "warning_code": 15,
+      "fingerprint": "96398f537f732a15c74b080aad1a399b1893b0d586a1387acd4e54f397792c37",
+      "check_name": "Render",
+      "message": "Render path contains parameter value",
+      "file": "app/views/admin/categories/index.html.erb",
+      "line": 40,
+      "link": "http://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+      "code": "render(action => Category.ransack(params[:q]).result.includes(:products).order(:left).page(params[:page]).per(Settings.admin.categories_list.per_page), {})",
+      "render_path": [{"type":"controller","class":"Admin::CategoriesController","method":"index","line":10,"file":"app/controllers/admin/categories_controller.rb"}],
+      "location": {
+        "type": "template",
+        "template": "admin/categories/index"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Weak"
+    },
+    {
+      "warning_type": "File Access",
+      "warning_code": 16,
+      "fingerprint": "9a15e42557d7a685c6c3ebc65d3c3bbd2ed190f135b7d5f01e20a976bd148af1",
+      "check_name": "FileAccess",
+      "message": "Parameter value used in file name",
+      "file": "app/controllers/static_pages_controller.rb",
+      "line": 14,
+      "link": "http://brakemanscanner.org/docs/warning_types/file_access/",
+      "code": "Pathname.new((Rails.root + \"app/views/static_pages/#{params[:page]}.html.erb\"))",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "StaticPagesController",
+        "method": "valid_page?"
+      },
+      "user_input": "params[:page]",
+      "confidence": "High"
+    },
+    {
+      "warning_type": "Dynamic Render Path",
+      "warning_code": 15,
+      "fingerprint": "cab4851994833ae591e452e269f0cbeb9fa7a04269bde264ccf29cac44cc043c",
+      "check_name": "Render",
+      "message": "Render path contains parameter value",
+      "file": "app/views/admin/products/index.html.erb",
+      "line": 87,
+      "link": "http://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+      "code": "render(action => Product.search(params[:q]).result.select(:id, :name, :image, :price, :quantity, :description, :category_id, :slug).includes(:category).order(:created_at => :DESC).page(params[:page]).per(Settings.admin.product_list.per_page), {})",
+      "render_path": [{"type":"controller","class":"Admin::ProductsController","method":"index","line":14,"file":"app/controllers/admin/products_controller.rb"}],
+      "location": {
+        "type": "template",
+        "template": "admin/products/index"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Weak"
+    },
+    {
+      "warning_type": "Dynamic Render Path",
+      "warning_code": 15,
+      "fingerprint": "ce019e3d28c32568b15127d6252cdf4ee0c090663cb7e61a06c98069e8fe8a47",
+      "check_name": "Render",
+      "message": "Render path contains parameter value",
+      "file": "app/views/orders/index.html.erb",
+      "line": 28,
+      "link": "http://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+      "code": "render(action => Order.ransack(params[:q]).result.where(\"user_id = ?\", current_user).order(:created_at => :desc).page(params[:page]).per(Settings.user.orders_history.per_page), {})",
+      "render_path": [{"type":"controller","class":"OrdersController","method":"index","line":9,"file":"app/controllers/orders_controller.rb"}],
+      "location": {
+        "type": "template",
+        "template": "orders/index"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Weak"
+    },
+    {
+      "warning_type": "Dynamic Render Path",
+      "warning_code": 15,
+      "fingerprint": "da7ff33e2532417b21163f4bec190d102e106f6d69001bfd9d38e9d07f864f2c",
+      "check_name": "Render",
+      "message": "Render path contains parameter value",
+      "file": "app/views/admin/users/index.html.erb",
+      "line": 31,
+      "link": "http://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+      "code": "render(action => User.ransack(params[:q]).result.select(:name, :email, :role).order(:created_at => :DESC).page(params[:page]).per(Settings.admin.users_list.per_page), {})",
+      "render_path": [{"type":"controller","class":"Admin::UsersController","method":"index","line":10,"file":"app/controllers/admin/users_controller.rb"}],
+      "location": {
+        "type": "template",
+        "template": "admin/users/index"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Weak"
+    },
+    {
+      "warning_type": "SQL Injection",
+      "warning_code": 0,
+      "fingerprint": "e37b12851bf31b0039610928000129b860415ca696c94fd5a5151a37cf115759",
+      "check_name": "SQL",
+      "message": "Possible SQL injection",
+      "file": "app/models/product.rb",
+      "line": 29,
+      "link": "http://brakemanscanner.org/docs/warning_types/sql_injection/",
+      "code": "Product.where(\"id IN (#{\"SELECT order_details.product_id FROM order_details\\n        WHERE (date(order_details.created_at) > '#{(Time.now - Settings.hot_trend.day)}')\\n        GROUP BY order_details.product_id\\n        ORDER BY SUM(order_details.quantity)\"})\")",
+      "render_path": null,
+      "location": {
+        "type": "method",
+        "class": "Product",
+        "method": "hot_trend"
+      },
+      "user_input": "(Time.now - Settings.hot_trend.day)",
+      "confidence": "Medium"
+    },
+    {
+      "warning_type": "Dynamic Render Path",
+      "warning_code": 15,
+      "fingerprint": "f78c65ab1c10923a6559ce0862776d25f6c182539fd2905c03b25f6391f6035e",
+      "check_name": "Render",
+      "message": "Render path contains parameter value",
+      "file": "app/views/requests/index.html.erb",
+      "line": 16,
+      "link": "http://brakemanscanner.org/docs/warning_types/dynamic_render_path/",
+      "code": "render(action => Request.order(:created_at => :desc).where(\"user_id = ?\", current_user.id).page(params[:page]).per(Settings.user.requests.per_page), {})",
+      "render_path": [{"type":"controller","class":"RequestsController","method":"index","line":6,"file":"app/controllers/requests_controller.rb"}],
+      "location": {
+        "type": "template",
+        "template": "requests/index"
+      },
+      "user_input": "params[:page]",
+      "confidence": "Weak"
+    }
+  ],
+  "ignored_warnings": [
+
+  ],
+  "errors": [
+
+  ],
+  "obsolete": [
+
+  ]
+}
